@@ -28,7 +28,7 @@
             </ol>
             <p>Which of these options is chosen will necessarily affect cataloging decisions. MLA recommends working together with other departments as necessary to create a set of consistent practices.</p>
             <p>There are three basic cataloging approaches that may be taken:</p>
-            <ul>
+            <ol>
                 <li>
                     <p>Find or create a provider-neutral record for the original digital file only.</p>
                     <ul>
@@ -71,7 +71,7 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
+            </ol>
         </section>
     </body>
 </topic>

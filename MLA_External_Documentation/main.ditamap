@@ -47,14 +47,17 @@
             <topicref href="Content/4_Description/Elements/bib_work_elements.dita"/>
         </topicref>
         <topicref href="Content/4_Description/Formats/bib_format_specific_guidance.dita" navtitle="Guidance for Specific Formats">
-            <topicref href="Content/4_Description/Formats/electronic_and_reproductions.dita">
-                <topicref href="Content/4_Description/Formats/provider_neutral_cataloging.dita"/>
-                <topicref href="Content/4_Description/Formats/formats_electronic.dita">
+            <topicref href="Content/4_Description/Formats/electronic_and_reproductions.dita" navtitle="Electronic Resources and Print Reproductions">
+                <topicref href="Content/4_Description/Formats/provider_neutral_cataloging.dita" navtitle="Provider-Neutral Cataloging"/>
+                <topicref href="Content/4_Description/Formats/formats_electronic.dita" navtitle="Electronic Resources">
                     <topicref href="Content/4_Description/Formats/formats_electronic_all.dita"/>
                     <topicref href="Content/4_Description/Formats/formats_electronic_direct.dita"/>
                     <topicref href="Content/4_Description/Formats/formats_electronic_remote.dita"/>
                     <topicref href="Content/4_Description/Formats/formats_electronic_scores.dita"/>
                 </topicref>
+            </topicref>
+            <topicref href="Content/4_Description/Formats/print_reproductions.dita" navtitle="Print Reproductions">
+                <topicref href="Content/4_Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications"/>
             </topicref>
         </topicref>
     </chapter>

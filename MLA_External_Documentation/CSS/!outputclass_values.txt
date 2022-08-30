@@ -4,3 +4,6 @@ Outputclass value to display icons after links:
     lcpcctk - LC-PCC PS/RDA Toolkit
     mlatk - MLA BP/RDA Toolkit
     
+    
+Outputclass values for formatting:
+    sectionsubhead - apply to p tags; bold, prevents page breaks after

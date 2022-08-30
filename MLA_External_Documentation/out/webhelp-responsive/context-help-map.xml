@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="frontmatter_notices" path="Content/frontmatter_notices.html"/>
+   <appContext helpID="intro" path="Content/intro.html"/>
+   <appContext helpID="intro_interpreting_bps"
+               path="Content/intro_interpreting_bps.html"/>
+   <appContext helpID="mla_application_profile"
+               path="Content/intro_mla_application_profile.html"/>
+   <appContext helpID="lrm_and_rda_concepts" path="Content/lrm_and_rda_concepts.html"/>
+   <appContext helpID="representative_expressions"
+               path="Content/representative_expressions.html"/>
+   <appContext helpID="representative_expressions"
+               path="Content/representative_expression_treatment.html"/>
+   <appContext helpID="aggregates" path="Content/aggregates.html"/>
+   <appContext helpID="aggregates" path="Content/aggregates_aaps.html"/>
+   <appContext helpID="musical_we" path="Content/musical_we.html"/>
+   <appContext helpID="aap_work_expression"
+               path="Content/musical_we_preferred_titles.html"/>
+   <appContext helpID="aap_work_expression" path="Content/musical_we_aaps.html"/>
+   <appContext helpID="bib_description" path="Content/bib_description.html"/>
+   <appContext helpID="element_overview_marc_bibliographic"
+               path="Content/bib_element_overview_marc.html"/>
+   <appContext helpID="bib_element_guidance" path="Content/bib_element_guidance.html"/>
+   <appContext helpID="bib_manifestation_elements"
+               path="Content/bib_manifestation_elements.html"/>
+   <appContext helpID="bib_expression_elements"
+               path="Content/bib_expression_elements.html"/>
+   <appContext helpID="bib_work_elements" path="Content/bib_work_elements.html"/>
+   <appContext helpID="marc_examples" path="Content/bp_examples_consolidated.html"/>
+</map>

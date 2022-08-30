@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <topicgroup>
+        <topichead>
+            <topicmeta>
+                <navtitle>LRM and RDA Concepts</navtitle>
+            </topicmeta>
+        </topichead>
+        <topicref href="./Content/representative_expressions.dita">
+            <topicref href="./Content/representative_expression_treatment.dita"/>
+        </topicref>
+        <topicref href="./Content/aggregates.dita"/>
+    </topicgroup>
+</map>

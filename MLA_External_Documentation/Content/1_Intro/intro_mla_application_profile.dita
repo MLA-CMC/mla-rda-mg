@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="mla_application_profile" outputclass="forcePageBefore">
+    <title>The MLA RDA Application Profile</title>
+    <prolog>
+        <critdates>
+            <created date="2021-12-09"/>
+            <revised modified=""/>
+        </critdates>
+    </prolog>
+    <body>
+        <p>An application profile conforming to the recommendations in the MLA Best Practices is available at <b><xref href="https://drive.google.com/drive/folders/1cDw7Zkh84FK9o7GWbi7GD7fv81OpwURI?usp=sharing" format="html" scope="external">TEMPORARY LINK</xref></b>. The profile is an Excel spreadsheet divided into multiple worksheets: one for elements common to all musical resources and additional sheets for elements (or treatments of elements) specific to scores and recordings (in physical or electronic formats).</p>
+        <section id="section_y4t_byt_vrb">
+            <title>Simplified Cardinality Map</title>
+            <p>The MLA application profile was intended for human readability and reflects the recommendations made in the Prerecording section of each listed element. The table below maps the terminology used in the spreadsheet to simple cardinality values for use in technical applications.</p>
+            <table frame="all" rowsep="1" colsep="0" id="table_bff_kyt_vrb">
+                <title>Cardinality Mapping</title>
+                <tgroup cols="4" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="2.5*" rowsep="1" colsep="1"/>
+                    <colspec colname="c2" colnum="2" colwidth="2.5*" colsep="1" rowsep="1"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*" rowsep="1" colsep="1"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*" rowsep="1" colsep="1"/>
+                    <thead>
+                        <row>
+                            <entry>First Instance</entry>
+                            <entry>Additional Instances</entry>
+                            <entry>Minimum</entry>
+                            <entry>Maximum</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry id="cardinality_mandatory">mandatory</entry>
+                            <entry id="cardinality_none">do not record</entry>
+                            <entry>1</entry>
+                            <entry>1</entry>
+                        </row>
+                        <row>
+                            <entry conref="#mla_application_profile/cardinality_mandatory"/>
+                            <entry id="cardinality_optional">
+                                <p>mandatory if applicable</p>
+                                <p>recommended if applicable/feasible</p>
+                                <p>cataloger's judgment</p>
+                                <p>prefer narrower element</p>
+                            </entry>
+                            <entry>1</entry>
+                            <entry>unlimited</entry>
+                        </row>
+                        <row>
+                            <entry conref="#mla_application_profile/cardinality_optional"/>
+                            <entry conref="#mla_application_profile/cardinality_optional"/>
+                            <entry>0</entry>
+                            <entry>unlimited</entry>
+                        </row>
+                        <row>
+                            <entry conref="#mla_application_profile/cardinality_optional"/>
+                            <entry conref="#mla_application_profile/cardinality_none"/>
+                            <entry>0</entry>
+                            <entry>1</entry>
+                        </row>
+                        <row>
+                            <entry conref="#mla_application_profile/cardinality_none"/>
+                            <entry conref="#mla_application_profile/cardinality_none"/>
+                            <entry>0</entry>
+                            <entry>0</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </body>
+</topic>

@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Authorized Access Points for Aggregating Works and Expressions","href":"Content\/aggregates_aaps.html","attributes":{"data-id":"aggregates"},"menu":{"hasChildren":false},"tocID":"aggregates-d295e142","topics":[]}]});

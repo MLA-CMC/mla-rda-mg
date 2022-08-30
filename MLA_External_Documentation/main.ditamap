@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle>Music Library Association RDA Metadata Guidance</mainbooktitle>
+        <booktitlealt outputclass="padding-top-60">A Companion for Use with the Music Library Association Best Practices in the RDA Toolkit</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <bookrights>
+            <bookowner>
+                <organization>Music Library Association Cataloging and Metadata Committee, Content Standards Subcommittee</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <keydef keys="b_bp_mla" href="bp_MLA_BP_copy.dita"/>
+        <keydef keys="bped_ex" href="./Content/bp_examples_consolidated.dita"/>
+        <keydef keys="bped_boilerplate" href="./bp_external.dita"/>
+        <notices toc="no">
+            <topicref href="Content/frontmatter_notices.dita"/>
+        </notices>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter href="Content/intro.dita" navtitle="Introduction">
+        <topicref href="Content/1_Intro/intro_interpreting_bps.dita"/>
+        <topicref href="Content/1_Intro/intro_mla_application_profile.dita"/>
+    </chapter>
+    <chapter navtitle="LRM and RDA Concepts" href="Content/lrm_and_rda_concepts.dita">
+        <topicref href="./Content/2_LRM/representative_expressions.dita" navtitle="Representative Expressions and Representative Expression Elements ">
+            <topicref href="./Content/2_LRM/representative_expression_treatment.dita" navtitle="Treatment of Representative Expressions"/>
+        </topicref>
+        <topicref href="./Content/2_LRM/aggregates.dita" navtitle="Aggregates">
+            <topicref href="Content/2_LRM/aggregates_aaps.dita" navtitle="Authorized Access Points for Aggregating Works and Expressions"/>
+        </topicref>
+    </chapter>
+    <chapter href="Content/musical_we.dita" navtitle="Musical Works and Expressions">
+        <topicref href="Content/3_WE/musical_we_preferred_titles.dita"/>
+        <topicref href="Content/3_WE/musical_we_aaps.dita"/>
+    </chapter>
+    <chapter href="Content/bib_description.dita" navtitle="Bibliographic Description">
+        <topicref format="dita" href="./Content/4_Description/Elements/bib_element_overview_marc.dita" navtitle="Element Overview: MARC Bibliographic"/>
+        <topicref href="Content/4_Description/Elements/bib_element_guidance.dita" navtitle="Guidance for Specific Elements">
+            <topicref href="Content/4_Description/Elements/bib_manifestation_elements.dita"/>
+            <topicref href="Content/4_Description/Elements/bib_expression_elements.dita"/>
+            <topicref href="Content/4_Description/Elements/bib_work_elements.dita"/>
+        </topicref>
+        <topicref href="Content/4_Description/Formats/bib_format_specific_guidance.dita" navtitle="Guidance for Specific Formats">
+            <topicref href="Content/4_Description/Formats/electronic_and_reproductions.dita">
+                <topicref href="Content/4_Description/Formats/provider_neutral_cataloging.dita"/>
+                <topicref href="Content/4_Description/Formats/formats_electronic.dita">
+                    <topicref href="Content/4_Description/Formats/formats_electronic_all.dita"/>
+                    <topicref href="Content/4_Description/Formats/formats_electronic_direct.dita"/>
+                    <topicref href="Content/4_Description/Formats/formats_electronic_remote.dita"/>
+                    <topicref href="Content/4_Description/Formats/formats_electronic_scores.dita"/>
+                </topicref>
+            </topicref>
+        </topicref>
+    </chapter>
+    <chapter href="Content/bp_examples_consolidated.dita"/>    
+</bookmap>

@@ -1,0 +1,6 @@
+
+Outputclass value to display icons after links:
+    rdatk - RDA/RDA Toolkit
+    lcpcctk - LC-PCC PS/RDA Toolkit
+    mlatk - MLA BP/RDA Toolkit
+    

@@ -11,7 +11,9 @@
                     <li><xref href="formats_electronic_remote.dita"/></li>
                     <li><xref href="formats_electronic_scores.dita"/></li>
                 </ul></li>
+            <li><xref href="print_reproductions.dita"/><ul id="ul_n12_m42_s5b">
+                    <li><xref href="original_pod_publications.dita"/></li>
+                </ul></li>
         </ul>
-        <p/>
     </body>
 </topic>

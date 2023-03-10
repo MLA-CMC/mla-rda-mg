@@ -1,9 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
-        <topic id="marc_examples">
+<topic id="marc_examples">
    <title>MARC Examples by Element</title>
    <body>
+      <!--
+      Templates for examples
+    
+      Full Table
+      <section id="REPLACE-ME">
+      <title outputclass="rdaPage">Title of element/chapter</title>
+         <div outputclass="rdaPageSubgroup">
+               <p outputclass="subheading">Subheading in element/chapter page (omit if not applicable)</p>
+               <p outputclass="oldNumber">Original RDA Instruction Number (omit if not applicable)</p>
+               <p outputclass="oldName">Original RDA Name (omit if same in new Toolkit)</p>
+               <table frame="none" outputclass="bpExample" id="REPLACE-ME-TOO">
+                  <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                     <colspec colname="field" colnum="1" colwidth="2*"/>
+                     <colspec colname="ind" colnum="2" colwidth="3*"/>
+                     <colspec colname="data" colnum="3" colwidth="25*"/>
+                     <tbody>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">008</entry>
+                           <entry colname="ind" outputclass="marcBytes">22</entry>
+                           <entry colname="data" outputclass="marcText">MARC fixed-field byte value(s)</entry>
+                        </row>
+                        <row outputclass="exampleConjunction">
+                           <entry namest="field" nameend="data" outputclass="marcComment">And/Or/But/Not</entry>
+                        </row>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">110</entry>
+                           <entry colname="ind" outputclass="marcInd">2#</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield </entry>
+                        </row>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">245</entry>
+                           <entry colname="ind" outputclass="marcInd">14</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The boréales : <ph outputclass="sf">$b</ph> sound of northern Europe / <ph outputclass="sf">$c</ph> Majorstuen.</entry>
+                        </row>
+                        <row outputclass="exampleCaption">
+                           <entry namest="field" nameend="data" outputclass="marcComment">Commentary/context/clarification for example</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </div>
+      </section>
+      
+      MARC fixed-field row (formats second column as bytes preceded by "/")
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">008</entry>
+                           <entry colname="ind" outputclass="marcBytes">22</entry>
+                           <entry colname="data" outputclass="marcText">MARC fixed-field byte value(s)</entry>
+                        </row>
+      
+      MARC variable-field row
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">110</entry>
+                           <entry colname="ind" outputclass="marcInd">2#</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield </entry>
+                        </row>
+                        
+      Conjunction between rows (and/or/but/not)
+                        <row outputclass="exampleConjunction">
+                           <entry namest="field" nameend="data" outputclass="marcComment">And/Or/But/Not</entry>
+                        </row>      
+      
+      Comment on example
+                         <row outputclass="exampleCaption">
+                           <entry namest="field" nameend="data" outputclass="marcComment">Commentary/context/clarification for example</entry>
+                        </row>     
+      -->
       <p>Indicator notation conventions:<dl id="dl_q54_bn5_4sb">
             <dlentry>
                <dt>#</dt>
@@ -421,7 +488,7 @@
                         <entry colname="ind" outputclass="marcInd">10</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Violin, piano music</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Preferred title for a compilation of the complete works of one composer for violin and piano; medium of performance terms taken from LCMPT.</entry>
                      </row>
                   </tbody>
@@ -446,7 +513,7 @@
                         <entry colname="ind" outputclass="marcInd">10</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Instrumental music</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Preferred title for a compilation of the complete works of one composer for instruments, without voices; term taken from LCSH.</entry>
                      </row>
                   </tbody>
@@ -2940,6 +3007,101 @@
             </table>
          </div>
          <div outputclass="rdaPageSubgroup">
+            <p outputclass="subheading">Number of subunits. Computer discs, cartridges, etc.</p>
+            <p outputclass="oldNumber">3.4.1.7.1</p>
+            <table frame="none" outputclass="bpExample">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 audio disc (14 audio files)</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a CD-R containing sound files in MP3 format. "Audio disc" used per Supplement 2.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 computer disc (1 score (1814 pages))</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 volume (389 pages)</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource consists of 1 PDF score on CD-ROM with accompanying commentary volume.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div> 
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="subheading">Number of subunits. Online resources</p>
+            <p outputclass="oldNumber">3.4.1.7.5</p>
+            <table frame="none" outputclass="bpExample" id="table_u2w_fyd_s5b">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 online resource (1 score (16 pages))</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_w4d_gyd_s5b">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 online resource (1 score (33 pages) + 3 parts)</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Score and parts in separate files.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>            
+            <table frame="none" outputclass="bpExample" id="table_cnk_gyd_s5b">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">300</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 online resource (1 score and 1 part (23, 5 pages))</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Score and part combined in a single file.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>         
+         <div outputclass="rdaPageSubgroup">
             <p outputclass="subheading">Extent of manifestations of text. Single unit manifestations. Single volumes with unnumbered pages, leaves, or columns</p>
             <p outputclass="oldNumber">3.4.5.3</p>
             <table frame="none" outputclass="bpExample" id="table_nwt_xkf_vrb">
@@ -3468,6 +3630,27 @@
                      <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Resource previously released in mono and stereo formats; the issue numbers of the original releases are known.</entry>
                      </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="subheading">Incorrect identifiers</p>
+            <p outputclass="oldNumber">2.15.1.6</p>
+            <table frame="none" outputclass="bpExample" id="table_yjb_qyd_s5b">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">020</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$z</ph> 9780711932982 <ph outputclass="sf">$q</ph> (print)</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is an electronic score; ISBN is for the print version</entry>
+                     </row>                     
                   </tbody>
                </tgroup>
             </table>

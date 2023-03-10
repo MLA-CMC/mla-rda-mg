@@ -22,7 +22,7 @@
             </ul>
             <p>Other bytes for field 006 may be omitted unless specifically required by local systems.</p>
             <p outputclass="sectionsubhead"><b>Field 007</b></p>
-            <p>Record a 007 for electronic resources using the following values:</p>
+            <p>Record the folowing values in field 007:</p>
             <ul>
                 <li>
                     <p>Byte 00 = <b>c</b> (electronic resource)</p>
@@ -46,8 +46,8 @@
                 </li>
             </ul>
             <p>Other bytes for 007 for electronic resources are not necessary and in most cases should be omitted unless specifically required by a particular application.</p>
-            <p><b>In addition: </b>also record a 007 for audio recordings (byte 00 = <b>s</b>) or video recordings (byte 00 = <b>v</b>)as per standard practice for that media type.</p>
-            <p>A 007 <i>may </i>be recorded for notated music (byte 00 = <b>q</b>), but is not required and is unlikely to be helpful as byte 00 is the only defined value for the notated music format.</p>
+            <p><b>In addition: </b>also record a second instance of field 007 for audio recordings (byte 00 = <b>s</b>) or video recordings (byte 00 = <b>v</b>) as per standard practice for that media type.</p>
+            <p>Field 007 <i>may </i>be recorded for notated music (byte 00 = <b>q</b>), but is not required and is unlikely to be helpful as byte 00 is the only defined value for the notated music format.</p>
             <p outputclass="sectionsubhead"><b>Field 008</b></p>
             <p>Record the following value in field 008/23:</p>
             <ul>
@@ -60,7 +60,7 @@
         <section id="section_xzc_h4p_r5b">
             <title>RDA Elements</title>
             <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>identifier for manifestation</i></b></p>
-            <p >Record identifiers that are specific to an electronic resource as normal.</p>
+            <p>Record identifiers that are specific to an electronic resource according to the RDA instructions for Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-95f6a60f-3d2b-32d8-9486-cf810708d4ba" format="html" scope="external" outputclass="rdatk"><u>identifier for manifestation</u></xref>, Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-037ea37b-9181-3d68-9ca0-e2879b7052a8" format="html" scope="external" outputclass="rdatk"><u>publisher number for notated music</u></xref>, and/or Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-092434e2-e754-3005-a599-51357de31c98" format="html" scope="external" outputclass="rdatk"><u>plate number for notated music</u></xref>, as appropriate.</p>
             <p>If the resource is not born digital but instead reproduces a physical resource, and references or reproduces identifiers that are specific to the physical original, record those identifiers as instructed by the MLA Best Practices under Manifestation: <xref href="https://access.rdatoolkit.org/en-US_ala-8f740d57-2d43-325b-b2fa-a0746bee7717/bcfddf1b-85b2-4662-a0ad-7cc129e9190e" format="html" scope="external" outputclass="mlatk"><u>identifier for manifestation. Recording. Incorrect identifiers</u></xref>: </p>
             <ul>
                 <li>
@@ -70,6 +70,15 @@
                     <p>For issue, matrix, plate, publisher, video recording, or distributor numbers, qualify the identifier using 028 $q if they are known to be specific to the physical version.</p>
                 </li>
             </ul>
+            <table conkeyref="bped_ex/table_yjb_qyd_s5b" id="table_y1y_kd2_s5b">
+                <tgroup cols="1">
+                    <tbody>
+                        <row>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
             <p outputclass="sectionsubhead"><b>Manifestation: </b><b><i>media type</i></b></p>
             <p>The appropriate value will always be <b><term>computer</term></b>.</p>
         </section>

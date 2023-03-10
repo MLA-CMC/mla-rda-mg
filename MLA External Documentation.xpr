@@ -14,7 +14,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>main.ditamap</String>
+                                    <String>MLA_External_Documentation/main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -34,7 +34,27 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
+                                    <String>MLA_External_Documentation/Content/bp_examples_consolidated.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA PDF - based on HTML5 &amp; CSS - Copy</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -135,26 +155,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>MLA_External_Documentation/Content/bib_expression_elements.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA PDF - based on HTML5 &amp; CSS - Copy</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/bp_examples_consolidated.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -702,6 +702,59 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
+                                                <String>args.copycss</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.css</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}\MLA_External_Documentation\CSS\base-styles.css;${pd}\MLA_External_Documentation\CSS\custom-styles-web.css</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
                                                 <String>args.figurelink.style</String>
                                             </field>
                                             <field name="description">
@@ -817,29 +870,6 @@
                                                 </String-array>
                                             </field>
                                         </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.css</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>${pd}\MLA_External_Documentation\CSS\example-styles.css;${pd}\MLA_External_Documentation\CSS\base-styles.css</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>2</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
                                     </list>
                                 </field>
                                 <field name="jvmArgs">
@@ -867,7 +897,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp Responsive - Copy</String>
+                                    <String>DITA Map WebHelp Responsive</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>

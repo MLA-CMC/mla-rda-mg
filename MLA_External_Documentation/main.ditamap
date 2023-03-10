@@ -55,9 +55,9 @@
                     <topicref href="Content/4_Description/Formats/formats_electronic_remote.dita"/>
                     <topicref href="Content/4_Description/Formats/formats_electronic_scores.dita"/>
                 </topicref>
-            </topicref>
-            <topicref href="Content/4_Description/Formats/print_reproductions.dita" navtitle="Print Reproductions">
-                <topicref href="Content/4_Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications"/>
+                <topicref href="Content/4_Description/Formats/print_reproductions.dita" navtitle="Print Reproductions">
+                    <topicref href="Content/4_Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications"/>
+                </topicref>
             </topicref>
         </topicref>
     </chapter>

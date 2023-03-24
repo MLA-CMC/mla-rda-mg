@@ -1,1 +1,0 @@
-define({"topics":[{"title":"Element Overview: MARC Bibliographic","shortdesc":"<p class=\"shortdesc\"\/>","href":"Content\/bib_element_overview_marc.html","attributes":{"data-id":"element_overview_marc_bibliographic"},"menu":{"hasChildren":true},"tocID":"element_overview_marc_bibliographic-d259e170","next":"element_overview_marc_bibliographic-d259e170"}]});

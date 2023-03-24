@@ -6,36 +6,75 @@
 
 /* Add RDA/LC-PCC/MLA icon after links to RDA Toolkit */
 .rdatk:after {
-    content:"";
+    content:url(oxygen-webhelp/template/resources/images/rda-icon.png);
     display:inline-block;
-    background-image: url("../Content/rda-icon.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     width:27px;
     height:10px;
+    padding-left:4px;
 }
 .lcpcctk:after {
-    content:"";
+    content:url(oxygen-webhelp/template/resources/images/lcpcc-icon.png);
     display:inline-block;
-    background-image: url("../Content/lcpcc-icon.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     width:45px;
     height:10px;
+    padding-left:4px;
 }
 .mlatk:after {
-    content:"";
+    content:url(oxygen-webhelp/template/resources/images/mla-icon.png);
     display:inline-block;
-    background-image: url("../Content/mla-icon.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center;
     width:34px;
     height:10px;
+    padding-left:4px;
 }
 /* *************************** */
+
+/* Presentation tweaks */
+/* Center text */
+.centered {
+    text-align:center !important
+}
+.largebold {
+    font-weight:bold;
+    font-size:larger;
+}
+.subtitle {
+    font-weight:bold;
+    font-size:x-large;
+}
+.normal-size-weight {
+    font-weight:normal;
+    font-size:initial;
+}
+
+/* Styling for colophon table */
+
+
+table.colophon {
+    /*  width:600px !important; */
+    max-width:600px !important;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(225, 245, 255, 1);
+    border-collapse:separate;
+    padding: 12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    page-break-inside:avoid;
+}
+
+table.colophon td {
+    border:hidden;
+    padding:0;
+}
 
 /* Styling for elements marked "core" in the bibliographic overview */
 .core:before{
@@ -95,8 +134,8 @@ p.oldName {
 }
 
 table.bpExample {
-    width:600px !important;
-    max-width:600px !important;
+    /*  width:600px !important; */
+    max-width:800px !important;
     background-color:rgba(225, 245, 255, 1);
     border-collapse:separate;
     padding: 12px;
@@ -104,6 +143,20 @@ table.bpExample {
     margin-bottom:10px;
     page-break-inside:avoid;
 }
+
+/* 
+table.bpExample > colgroup > col {
+    max-width: 30px !important;   
+}
+
+.marcTag {
+    max-width: 30px !important;   
+}
+
+table.bpExample > colgroup > col.last-of-type {
+    min-width:400px;
+}
+ */
 
 tgroup.marcBlock {
 }
@@ -122,6 +175,7 @@ tr.marcContent > td {
     line-height:1 !important;
     padding:0px 0px 3px 0px !important;
     page-break-inside:auto !important;
+    border: hidden;
 }
 
 td.marcBytes:before{
@@ -133,6 +187,7 @@ tr.exampleConjunction > td {
     font-weight:bold;
     padding-top:6px;
     padding-bottom:6px;
+    border: hidden;
 }
 
 tr.exampleCaption td {
@@ -141,6 +196,7 @@ tr.exampleCaption td {
     padding-top:6px;
     padding-bottom:6px;
     line-height:1.2 !important;
+    border: hidden;
 }
 
 span.sf {

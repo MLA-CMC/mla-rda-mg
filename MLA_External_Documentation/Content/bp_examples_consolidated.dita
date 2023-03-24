@@ -668,7 +668,7 @@
                         <entry colname="ind" outputclass="marcInd">12</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Expression manifested: <ph outputclass="sf">$a</ph> Strauss, Richard, <ph outputclass="sf">$d</ph> 1864-1949. <ph outputclass="sf">$t</ph> Lieder, <ph outputclass="sf">$n</ph> op. 29. <ph outputclass="sf">$n</ph> Schlagende Herzen.</entry>
                      </row>
-                     <row>
+                     <row outputclass="marcContent">
                         <entry colname="field">700</entry>
                         <entry colname="ind">12</entry>
                         <entry colname="data">[Etc...]</entry>
@@ -5970,7 +5970,7 @@
                         <entry colname="ind" outputclass="marcInd">##</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Masses <ph outputclass="sf">$2</ph> lcgft</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Work authority record. In bibliographic records, prefer field 655 to field 380.</entry>
                      </row>
                      
@@ -5993,7 +5993,7 @@
                         <entry colname="ind" outputclass="marcInd">##</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Musicals <ph outputclass="sf">$a</ph> Rock music <ph outputclass="sf">$2</ph> lcgft</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Work authority record. In bibliographic records, prefer field 655 to field 380.</entry>
                      </row>
                   </tbody>
@@ -6015,7 +6015,7 @@
                         <entry colname="ind" outputclass="marcInd">##</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Overtures <ph outputclass="sf">$2</ph> lcgft</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Work authority record. In bibliographic records, prefer field 655 to field 380.</entry>
                      </row>
                   </tbody>
@@ -6037,7 +6037,7 @@
                         <entry colname="ind" outputclass="marcInd">##</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Ragtime music <ph outputclass="sf">$2</ph> lcgft</entry>
                      </row>
-                     <row>
+                     <row outputclass="exampleCaption">
                         <entry namest="field" nameend="data" outputclass="marcComment">Work authority record. In bibliographic records, prefer field 655 to field 380.</entry>
                      </row>
                   </tbody>

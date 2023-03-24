@@ -6,4 +6,4 @@ Outputclass value to display icons after links:
     
     
 Outputclass values for formatting:
-    sectionsubhead - apply to p tags; bold, prevents page breaks after
+    sectionsubhead - apply to <p> tags; bold, prevents page breaks after

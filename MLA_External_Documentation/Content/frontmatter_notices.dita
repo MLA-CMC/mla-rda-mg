@@ -3,18 +3,17 @@
 <topic id="frontmatter_notices">
     <title outputclass="centered">Music Library Association RDA Metadata Guidance</title>
     <body>
-        
-        <div>
-            <p outputclass="centered subtitle">A Companion for Use with the Music Library Association Best Practices in the RDA Toolkit</p>
-        </div>
-
+        <div id="div_tcw_3zq_wwb">
+            <div>
+                <p outputclass="centered subtitle">A Companion for Use with the Music Library Association Best Practices in the RDA Toolkit</p>
+            </div>
             <div outputclass="centered largebold padding-top-60">
-                <p><ph id="ph_my3_djp_wsb">Version 0.92</ph> (draft for public comment)</p>
-                <p>September 22, 2022</p>
+                <p><ph conref="../main.ditamap#ph_jq1_4zq_wwb"/> (draft for public comment)</p>
+                <p><ph conref="../main.ditamap#ph_gtk_4cr_wwb"/></p>
             </div>
             <div outputclass="centered padding-top-60">
-                <p outputclass="largebold">Prepared by the Content Standards Subcommittee, Cataloging and Metadata Committee, Music Library Association<fn outputclass="normal-size-weight">Membership and affiliations at the time of the MLA Annual Meeting, February-March 2022.</fn></p>
-                <table frame="none" rowsep="0" colsep="0" id="table_gpt_mpy_nsb">
+                <p outputclass="largebold">Prepared by the <xref href="https://cmc.wp.musiclibraryassoc.org/content-standards-subcommittee/" format="html" scope="external">Content Standards Subcommittee</xref>, Cataloging and Metadata Committee, Music Library Association<fn outputclass="normal-size-weight">Membership and affiliations at the time of the MLA Annual Meeting, February-March 2022.</fn></p>
+                <table frame="none" rowsep="0" colsep="0" id="table_gpt_mpy_nsb" outputclass="colophon">
                     <tgroup cols="2" align="left">
                         <colspec colname="c1" colnum="1" colwidth="1*"/>
                         <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -66,10 +65,10 @@
                         </tbody>
                     </tgroup>
                 </table>
-
-                
             </div>
-            <draft-comment author="kek67197">For future use, based on supplements???<p>Maintained by the Content Standards Subcommittee, 2022-</p><table frame="none" rowsep="0" colsep="0">
+        </div>
+        
+        <draft-comment author="kek67197">For future use, based on supplements???<p>Maintained by the Content Standards Subcommittee, 2022-</p><table frame="none" rowsep="0" colsep="0" id="table_nqf_bzq_wwb" outputclass="colophon">
                 <tgroup cols="2" align="left">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -85,12 +84,11 @@
                     </tbody>
                 </tgroup>
             </table></draft-comment>
-        
         <section id="section_lxz_d3y_nsb" outputclass="forcePageBefore">
             <title>Citation and Permissions</title>
             <p>To cite this document:</p>
-            <p><b>Chicago (17th):</b> MLA Content Standards Subcommittee. <cite>Music Library Association RDA Metadata Guidance</cite>. <ph conref="#frontmatter_notices/ph_my3_djp_wsb"/>. <xref href="http://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
-            <p><b>APA (7th):</b> MLA Content Standards Subcommittee. <i>Music Library Association RDA Metadata Guidance</i> (<ph conref="#frontmatter_notices/ph_my3_djp_wsb"/>). <xref href="http://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
+            <p><b>Chicago (17th):</b> MLA Content Standards Subcommittee. <cite>Music Library Association RDA Metadata Guidance</cite>. <ph conref="../main.ditamap#ph_jq1_4zq_wwb"/>. <xref href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
+            <p><b>APA (7th):</b> MLA Content Standards Subcommittee. <i>Music Library Association RDA Metadata Guidance</i> (<ph conref="../main.ditamap#ph_jq1_4zq_wwb"/>). <xref href="https://wp.blog.musiclibraryassoc.org/mla-best-practices/" format="html" scope="external"/>.</p>
             <p outputclass="padding-top-60">This document and the MLA Best Practices are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit <xref href="https://creativecommons.org/licenses/by-nc-sa/4.0/" format="html" scope="external"/>.</p>
         </section>
     </body>

@@ -1,0 +1,229 @@
+/* Prevent table content from being hyphenated */
+*[class ~="topic/table"] {
+    hyphens: none;
+}
+/* *************************** */
+
+/* Add RDA/LC-PCC/MLA icon after links to RDA Toolkit */
+.rdatk:after {
+    content:url(oxygen-webhelp/template/resources/images/rda-icon.png);
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    width:27px;
+    height:10px;
+    padding-left:4px;
+}
+.lcpcctk:after {
+    content:url(oxygen-webhelp/template/resources/images/lcpcc-icon.png);
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    width:45px;
+    height:10px;
+    padding-left:4px;
+}
+.mlatk:after {
+    content:url(oxygen-webhelp/template/resources/images/mla-icon.png);
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    width:34px;
+    height:10px;
+    padding-left:4px;
+}
+/* *************************** */
+
+/* Presentation tweaks */
+/* Center text */
+.centered {
+    text-align:center !important
+}
+.largebold {
+    font-weight:bold;
+    font-size:larger;
+}
+.subtitle {
+    font-weight:bold;
+    font-size:x-large;
+}
+.normal-size-weight {
+    font-weight:normal;
+    font-size:initial;
+}
+
+/* Styling for colophon table */
+
+
+table.colophon {
+    /*  width:600px !important; */
+    max-width:600px !important;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(225, 245, 255, 1);
+    border-collapse:separate;
+    padding: 12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    page-break-inside:avoid;
+}
+
+table.colophon td {
+    border:hidden;
+    padding:0;
+}
+
+/* Styling for elements marked "core" in the bibliographic overview */
+.core:before{
+}
+.core {
+    font-weight:bold;
+}
+div.note {
+    font-weight:normal;
+}
+/* *************************** */
+
+
+/* Styling for MARC examples */
+.pageGroup {
+}
+
+.rdaPage {
+}
+
+div.rdaPageSubgroup {
+    display: block;
+}
+
+p.subheading:before {
+    content: "Subheading: ";
+    font-weight: bold;
+}
+
+p.subheading {
+    page-break-after:avoid;
+    display: block;
+    font-weight:normal;
+}
+
+p.oldNumber:before {
+    content: "Former number: ";
+    font-weight: bold;
+}
+p.oldNumber {
+    display:block;
+    font-weight:normal;
+    page-break-after:avoid;
+    page-break-before:avoid;
+}
+
+p.oldName:before{
+    content: "Earlier name: ";
+    font-weight:bold;
+}
+
+p.oldName {
+    display:block;
+    font-weight:normal;
+    page-break-after:avoid;
+    page-break-before:avoid;
+}
+
+table.bpExample {
+    /*  width:600px !important; */
+    max-width:800px !important;
+    background-color:rgba(225, 245, 255, 1);
+    border-collapse:separate;
+    padding: 12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    page-break-inside:avoid;
+}
+
+/* 
+table.bpExample > colgroup > col {
+    max-width: 30px !important;   
+}
+
+.marcTag {
+    max-width: 30px !important;   
+}
+
+table.bpExample > colgroup > col.last-of-type {
+    min-width:400px;
+}
+ */
+
+tgroup.marcBlock {
+}
+
+tr.marcContent {
+    line-height:1 !important;
+    padding: 0px !important;
+}
+tr.exampleConjunction, tr.exampleCaption {
+}
+
+tr.marcContent > td {
+    font-size:initial;
+    font-weight:normal;
+    text-decoration:none;
+    line-height:1 !important;
+    padding:0px 0px 3px 0px !important;
+    page-break-inside:auto !important;
+    border: hidden;
+}
+
+td.marcBytes:before{
+    content:"/";
+    font-weight:normal;    
+}
+
+tr.exampleConjunction > td {
+    font-weight:bold;
+    padding-top:6px;
+    padding-bottom:6px;
+    border: hidden;
+}
+
+tr.exampleCaption td {
+    font-weight: bold;
+    font-size:smaller;
+    padding-top:6px;
+    padding-bottom:6px;
+    line-height:1.2 !important;
+    border: hidden;
+}
+
+span.sf {
+    color:blue;
+}
+
+/* Disable punctuation processing for now except to hide relocated/duplicated punctuation included in isbd-minimal
+span.isbd-full:hover, span.isbd-minimal:hover, span.isbd-internal:hover, span.isbd-integral:hover, span.isbd-aap:hover {
+    background-color:white;
+}
+span.isbd-full {
+    font-weight:600;
+    color:red;
+}
+span.isbd-internal {
+    color:purple;
+    font-weight:600;
+}
+span.isbd-integral {
+    color:blue;
+    font-weight:600;
+}
+span.isbd-aap {
+    color:black;
+}
+*/
+span.isbd-minimal {
+    display:none;
+}
+/* *************************** */

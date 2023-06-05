@@ -4700,6 +4700,122 @@
             </table>
          </div>
       </section>
+      <section id="section_iyx_jsd_pxb">
+         <title outputclass="rdaPage">Manifestation: publication statement</title>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="oldNumber">2.8</p>
+            <table frame="none" outputclass="bpExample" id="table_rxn_4sd_pxb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> R2 72190 <ph outputclass="sf">$b</ph> Rhino</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_1</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Los Angeles, CA : <ph outputclass="sf">$b</ph> Rhino, <ph outputclass="sf">$c</ph> [1995]</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_4</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> ℗1995</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a sound recording. On spine, disc, and back of container: Rhino (stylized RHINO, with letters of varying vertical alignment, in a red oval) </entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">On disc and back of container: All selections controlled by Rhino Records Inc. This Compilation ℗ &amp; © 1995 Rhino Records Inc., 10635 Santa Monica Blvd., Los Angeles, CA 90025-4900. </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_bfn_p5d_pxb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">028</entry>
+                        <entry colname="ind" outputclass="marcInd">02</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> GM054 <ph outputclass="sf">$b</ph> Ghostmeat Records</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">00</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> AthFest <ph outputclass="sf">$b</ph> Athens Georgia 2009</entry>
+                     </row>
+                     
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_1</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> [Athens, GA] :  <ph outputclass="sf">$b</ph> Ghostmeat Records, <ph outputclass="sf">$c</ph> [2009]</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_4</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> ©2009</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a sound recording. On back of container: Ghostmeat Records [logo]; Ghostmeat Records [text]; ©2009 AthFest, Inc.</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Smaller logos present on container: Flagpole [a local weekly paper]; Bulldog 100.1 [a radio station]; Chase Park Transduction [a recording studio]; CDman.com [a CD manufacturing and distribution service]</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data">On spine: Ghostmeat; GM054</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_cpc_jvd_pxb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_1</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> [United Kingdom?] : <ph outputclass="sf">$b</ph> Parlophone, <ph outputclass="sf">$c</ph> [2015]</entry>
+                     </row>
+                     <row outputclass="exampleConjunction">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Or</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_1</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> [United Kingdom?] : <ph outputclass="sf">$b</ph> Parlophone : <ph outputclass="sf">$b</ph> Gem, <ph outputclass="sf">$c</ph> [2015]</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_4</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> ℗2012</entry>
+                     </row>
+                     <row outputclass="exampleConjunction">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Or</entry>
+                     </row>
+                     <row outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_4</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$c</ph> ℗2012 <ph outputclass="sf">$c</ph> ©2015</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a sound recording. On disc: A Gem production [text]; ℗1972 The copyright in this sound recording is owned by Jones/Tintoretto Entertainment Co., LLC under exclusive license to Parlophone Records Ltd. Digital remaster ℗2012 The copyright in this sound recording is owned by Jones/Tintoretto Entertainment Co., LLC under exclusive license to Parlophone Records Ltd. ©2015 Jones/Tintoretto Entertainment Co., LLC. ... ©2015 Parlophone Records Ltd. A Warner Music Group Company.</entry>
+                     </row>
+                     <row outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">On container: A Gem production [under wordless graphic logo]; Parlophone [logo]</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+      </section>
       <section id="section_rzt_xkf_vrb">
          <title outputclass="rdaPage">Manifestation: publisher number for notated music</title>
          <div outputclass="rdaPageSubgroup">

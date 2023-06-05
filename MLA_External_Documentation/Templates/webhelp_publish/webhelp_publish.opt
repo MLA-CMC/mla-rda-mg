@@ -43,6 +43,7 @@
     -->
     <preview-image file="preview-image.png"/>
     
+    
     <!-- Resources like CSS, favicon, logo and others -->
     <resources>
       <!-- Main CSS file -->
@@ -51,6 +52,7 @@
       <css file="css/custom-styles-web.css"/>
       <!-- Notes -->
       <css file="css/notes.css"/>
+      <logo file="resources/images/mla_logo_w.png"/>
       <!-- Images -->
       <fileset>
         <include name="resources/**/*"/>

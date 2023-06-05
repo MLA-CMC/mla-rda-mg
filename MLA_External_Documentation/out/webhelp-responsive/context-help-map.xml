@@ -48,6 +48,12 @@
                path="Content/4_Description/Formats/print_reproductions.html"/>
    <appContext helpID="formats_print_original_pod_publications"
                path="Content/4_Description/Formats/original_pod_publications.html"/>
+   <appContext helpID="formats_sound_recordings"
+               path="Content/4_Description/Formats/formats_sound_recordings.html"/>
+   <appContext helpID="formats_sound_recordings_labels"
+               path="Content/4_Description/Formats/formats_sound_recordings_labels.html"/>
+   <appContext helpID="formats_sound_recordings_performers"
+               path="Content/4_Description/Formats/formats_sound_recordings_performers.html"/>
    <appContext helpID="marc_examples" path="Content/bp_examples_consolidated.html"/>
    <appContext helpID="web_colophon" path="Content/web_colophon.html"/>
 </map>

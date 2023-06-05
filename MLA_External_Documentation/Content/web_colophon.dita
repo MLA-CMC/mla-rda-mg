@@ -5,7 +5,8 @@
     <body>
         <section id="section_dth_gfr_wwb">
             <title outputclass="centered">Publication Information</title>
-            <p outputclass="centered subtitle">Music Library Association RDA Metadata Guidance</p>
+            <p outputclass="centered subtitle">Music Library Association </p>
+            <p outputclass="centered subtitle">RDA Metadata Guidance</p>
             <div conref="frontmatter_notices.dita#frontmatter_notices/div_tcw_3zq_wwb"/>
         </section>
         <section conref="frontmatter_notices.dita#frontmatter_notices/section_lxz_d3y_nsb" id="section_gqt_s2r_wwb"><title/><p/></section>

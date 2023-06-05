@@ -1,3 +1,23 @@
+/* Main page webhelp tweaks */
+.wh_logo>img {
+    height:40px;
+    padding-right:15px;
+}
+
+.wh_main_page .wh_search_input {
+    padding: 40px 0;
+    background: url(../resources/images/bgr_right.png) right no-repeat #5E6573;
+}
+
+/* Non-main page search bar tweaks (to set the correct image location) */
+.wh_search_input {
+    background: url(../resources/images/bgr_right_small.png) right no-repeat #5E6573;
+}
+
+.wh_welcome:not(:empty){
+    display:none;
+}
+
 /* Prevent table content from being hyphenated */
 *[class ~="topic/table"] {
     hyphens: none;
@@ -6,7 +26,7 @@
 
 /* Add RDA/LC-PCC/MLA icon after links to RDA Toolkit */
 .rdatk:after {
-    content:url(oxygen-webhelp/template/resources/images/rda-icon.png);
+    content:url(../resources/images/rda-icon.png);
     display:inline-block;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -16,7 +36,7 @@
     padding-left:4px;
 }
 .lcpcctk:after {
-    content:url(oxygen-webhelp/template/resources/images/lcpcc-icon.png);
+    content:url(../resources/images/lcpcc-icon.png);
     display:inline-block;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,7 +46,7 @@
     padding-left:4px;
 }
 .mlatk:after {
-    content:url(oxygen-webhelp/template/resources/images/mla-icon.png);
+    content:url(../resources/images/mla-icon.png);
     display:inline-block;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -56,8 +76,6 @@
 }
 
 /* Styling for colophon table */
-
-
 table.colophon {
     /*  width:600px !important; */
     max-width:600px !important;

@@ -8,8 +8,8 @@
     <bookmeta>
         <publisherinformation>
             <published>
-                <data><ph id="ph_jq1_4zq_wwb">Version 0.92</ph></data>
-                <data><ph id="ph_gtk_4cr_wwb">September 22, 2022</ph></data>
+                <data><ph id="ph_jq1_4zq_wwb">Version 0.93</ph></data>
+                <data><ph id="ph_gtk_4cr_wwb">July xx, 2023</ph></data>
             </published>
         </publisherinformation>
         <bookrights>
@@ -24,8 +24,8 @@
         <keydef keys="bped_ex" href="./Content/bp_examples_consolidated.dita"/>
         <keydef keys="bped_boilerplate" href="./bp_external.dita">
             <data>
-                <draft-comment author="keknop">Publication information and history and citation information are inserted as frontmatter in the PDF version and are ignored by the table of contents ("toc='no'"). Unfortunately this suppresses them from the web version (and if it weren't suppresed it would appear as the first "chapter," which is questionable). As a workaround, the frontmatter file is added twice: here and as the last chapter at the end of the map, with the outputclass attributes "pdfonly" and "webonly" respectively. In the transformation scenarios for PDF and web there are filters set (right click > Edit > Filters tab) so the PDF transformation ignores the "webonly" version and the web transformation ignores the "pdfonly"
-                    version.</draft-comment>
+                <draft-comment author="keknop">Publication information and history and citation information are inserted as frontmatter in the PDF version and are ignored by the table of contents (the "toc='no'" attribute on the notices tag, below). Unfortunately this suppresses them from the web version (and if it weren't suppresed it would appear as the first "chapter," which is questionable). As a workaround, the frontmatter file is added twice: here and as the last chapter ("web_colophon") at the end of the map, with the outputclass attributes "pdfonly" and "webonly" respectively. In the transformation scenarios for PDF and web there are filters set (right click on scenario > Edit > Filters tab) so the PDF transformation ignores the
+                    "webonly" version and the web transformation ignores the "pdfonly" version.</draft-comment>
             </data>
         </keydef>
         <notices toc="no" outputclass="pdfonly">
@@ -71,13 +71,17 @@
                     <topicref href="Content/4_Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications"/>
                 </topicref>
             </topicref>
+            <topicref href="Content/4_Description/Formats/formats_sound_recordings.dita">
+                <topicref href="Content/4_Description/Formats/formats_sound_recordings_labels.dita"/>
+                <topicref href="Content/4_Description/Formats/formats_sound_recordings_performers.dita"/>
+            </topicref>
         </topicref>
     </chapter>
     <chapter href="Content/bp_examples_consolidated.dita"/>
     <chapter href="Content/web_colophon.dita" outputclass="webonly">
         <anchorref>
             <data>
-                <draft-comment author="keknop">Keep as the final "chapter" for web transformation.</draft-comment>
+                <draft-comment author="keknop">Keep "web_colophon" as the final "chapter" for web transformation.</draft-comment>
             </data>
         </anchorref>
     </chapter>    

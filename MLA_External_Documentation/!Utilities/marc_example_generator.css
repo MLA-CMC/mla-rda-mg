@@ -1,0 +1,252 @@
+@namespace oxy url('http://www.oxygenxml.com/extensions/author');
+oxy|comment:before {
+    color:red;
+    margin-left:60px;
+    content: "DRAFT COMMENT: ";
+}
+oxy|comment {
+    display: block;
+    color:black !important;
+    width:47em;
+    background-color:rgba(138, 234, 45, 0.16) !important;
+}
+
+oxy|comment:after {
+    display:block;
+}
+
+colspec{
+  display : none ;
+}
+
+section{
+    width:80%;
+    padding-right:50px;
+}
+
+section:after {
+    display: block;
+    content: 
+    oxy_button(
+       action, oxy_action(
+       name, 'New RDA Page', 
+       description, 'Insert a new RDA examples page after this location.', 
+       operation, 'InsertFragmentOperation', 
+       arg-fragment, '<section><title outputclass="rdaPage"></title><div outputclass="rdaPageSubgroup"><table frame="none" outputclass="bpExample"><tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0"><colspec colname="field" colnum="1" colwidth="2*"/><colspec colname="ind" colnum="2" colwidth="3*"/><colspec colname="data" colnum="3" colwidth="25*"/><tbody><row valign="top" outputclass="marcContent"><entry colname="field" outputclass="marcTag"/><entry colname="ind" outputclass="marcInd"/><entry colname="data" outputclass="marcText"/></row></tbody></tgroup></table></div></section>', 
+       arg-insertLocation, '.', 
+       arg-insertPosition, 'After', 
+       arg-schemaAware)
+    )
+}
+
+title[outputclass='rdaPage']:before{
+    display:block;
+    content:
+    oxy_label(text, "RDA ELEMENT/CHAPTER", styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")
+
+}
+
+title[outputclass='rdaPage']{
+    -oxy-show-placeholder:always;    
+    -oxy-placeholder-content:"Prefix: element name/chapter title";
+}
+
+div[outputclass='rdaPageSubgroup']{
+    border:1px solid;
+    border-color:rgba(225,225,225,1);
+    padding:5px;
+    margin-left:30px;
+    margin-top:5px;
+}
+
+div[outputclass='rdaPageSubgroup']:before {
+    display: block;
+    content:
+    oxy_label(text, "EXAMPLE GROUP", styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")
+    "\A"
+    oxy_button(
+        action, oxy_action(
+        name, 'Add RDA Subheading', 
+        description, 'Add a subheading from the RDA page being illustrated', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<p outputclass="subheading"/>', 
+        arg-insertLocation, '.', 
+        arg-insertPosition, 'Inside as first child', 
+        arg-schemaAware)
+        )
+    oxy_button(
+        action, oxy_action(
+        name, 'Add Former RDA Number', 
+        description, 'Add an instruction number from original RDA', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<p outputclass="oldNumber"/>', 
+        arg-insertLocation, 'if (./p[@outputclass="oldName"]) then (./p[@outputclass="oldName"]) else (./table)', 
+        arg-insertPosition, 'Before', 
+        arg-schemaAware)
+        )
+    oxy_button(
+        action, oxy_action(
+        name, 'Add Former RDA Name', 
+        description, 'Add an element or section name from original RDA', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<p outputclass="oldName"/>', 
+        arg-insertLocation, './table', 
+        arg-insertPosition, 'Before', 
+        arg-schemaAware)
+        )           
+}
+
+div[outputclass='rdaPageSubgroup']:after{
+    content:
+    oxy_button(
+        action, oxy_action(
+        name, 'Add New Example', 
+        description, 'Insert a new example as part of this example group', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<table frame="none" outputclass="bpExample"><tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0"><colspec colname="field" colnum="1" colwidth="2*"/><colspec colname="ind" colnum="2" colwidth="3*"/><colspec colname="data" colnum="3" colwidth="25*"/><tbody><row valign="top" outputclass="marcContent"><entry colname="field" outputclass="marcTag"/><entry colname="ind" outputclass="marcInd"/><entry colname="data" outputclass="marcText"/></row></tbody></tgroup></table>', 
+        arg-insertLocation, '.', 
+        arg-insertPosition, 'Inside as last child', 
+        arg-schemaAware)
+        )
+        "\A"
+    oxy_button(
+        action, oxy_action(
+        name, 'Add New Example Grouping', 
+        description, 'Start a new group of examples with different subheadings', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<div outputclass="rdaPageSubgroup"><p outputclass="subheading"/><p outputclass="oldNumber"/><p outputclass="oldName"/></div>', 
+        arg-insertLocation, '.', 
+        arg-insertPosition, 'After', 
+        arg-schemaAware)
+        )        
+}
+
+/* Subheadings */
+p[outputclass='subheading']:before{
+    
+}
+p[outputclass='subheading']{
+     content:oxy_label(text, "Subheading: ", width, 25%, color, inherit);
+    -oxy-placeholder-content:"Subheading on page (delete if unneeded)";
+    -oxy-show-placeholder:always;    
+
+}
+p[outputclass='oldNumber']{
+    content:oxy_label(text, "Former number: ", width, 25%, color, inherit);
+    -oxy-show-placeholder:always;    
+    -oxy-placeholder-content:"Original RDA instruction number (delete if unneeded)";  
+}
+p[outputclass='oldName']{
+    content:oxy_label(text, "Former name: ", width, 25%, color, inherit);
+    -oxy-show-placeholder:always;    
+    -oxy-placeholder-content:"Original RDA name if different (delete if unneeded)";
+}
+
+table:before{
+    display:block;
+    content:
+    oxy_label(text, "MARC EXAMPLE", styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")    
+}
+
+tgroup:after {
+    display: block;
+    content: 
+    "\A"
+    oxy_button(
+        action, oxy_action(
+        name, 'Add MARC Row', 
+        description, 'Add a new row for MARC content', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<row valign="top" outputclass="marcContent"><entry colname="field" outputclass="marcTag"/><entry colname="ind" outputclass="marcInd"/><entry colname="data" outputclass="marcText"/></row>', 
+        arg-insertLocation, '.', 
+        arg-insertPosition, 'Inside as last child', 
+        arg-schemaAware)
+    )
+    oxy_button(
+        action, oxy_action(
+        name, 'Add Conjunction Row', 
+        description, 'Add an And/Or/But etc. row', 
+        operation, 'InsertFragmentOperation', 
+        arg-fragment, '<row valign="top" outputclass="exampleConjunction"><entry namest="field" nameend="data" outputclass="marcComment"/></row>', 
+        arg-insertLocation, '.', 
+        arg-insertPosition, 'Inside as last child', 
+        arg-schemaAware)
+    )
+    oxy_button(
+       action, oxy_action(
+       name, 'Add Caption/Comment Row', 
+       description, 'Add a caption row', 
+       operation, 'InsertFragmentOperation', 
+       arg-fragment, '<row valign="top" outputclass="exampleCaption"><entry namest="field" nameend="data" outputclass="marcComment"/></row>', 
+       arg-insertLocation, '.', 
+       arg-insertPosition, 'Inside as last child', 
+       arg-schemaAware)
+    )   
+}
+
+/* MARC content for examples */
+entry{
+    float:left;
+}
+
+entry[outputclass="marcTag"]:before{
+     display:block;
+     content:
+     oxy_label(text, "TAG", color, gray, styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")
+}
+entry[outputclass="marcTag"]{
+   -oxy-placeholder-content:"245";
+   -oxy-show-placeholder:always;
+}
+
+entry[outputclass="marcBytes"]:before,
+entry[outputclass="marcInd"]:before{
+    display:block;
+    content:
+    oxy_combobox( 
+            edit, '@outputclass',
+            editable, false,
+            values, 'marcInd, marcBytes',
+            labels, 'Indicator, Bytes')
+}
+entry[outputclass="marcBytes"],
+entry[outputclass="marcInd"]{
+    -oxy-placeholder-content:"00";
+    -oxy-show-placeholder:always;
+}
+
+entry[outputclass="marcText"]:before {
+    display:block;
+    content:
+    oxy_label(text, "CONTENT", color, gray, styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")
+}
+
+entry[outputclass="marcText"]{
+      -oxy-show-placeholder:always;
+      -oxy-placeholder-content:"Use CTRL+Shift+D to add MARC subfields";
+}
+
+/* MARC subfields */
+ph[outputclass="sf"]{
+    color:blue;
+    -oxy-placeholder-content:"$a";      
+}
+
+row[outputclass="exampleConjunction"]>entry{
+   -oxy-placeholder-content:"But";
+   -oxy-show-placeholder:always;
+   font-weight:bold;
+}
+row[outputclass="exampleCaption"]>entry{
+
+   -oxy-placeholder-content:"Caption/comment text";
+   -oxy-show-placeholder:always;
+   font-weight:bold;
+   font-size:smaller;
+}
+
+
+
+
+
+

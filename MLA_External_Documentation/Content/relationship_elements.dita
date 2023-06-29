@@ -4,5 +4,90 @@
     <title>Relationship Elements</title>
     <body>
         <p>TBD</p>
+        <section id="section_p5l_vpy_wxb">
+            <title>Relationship Labels</title>
+            <p>Agent-to-WEMI Relationships</p>
+            <p>aafeaf</p>
+            <ul id="ul_ukr_xqy_wxb">
+                <li>Agent<ul id="ul_r4n_yqy_wxb">
+                        <li>Person</li>
+                        <li>Collective agent<ul id="ul_zg3_zqy_wxb">
+                                <li>Corporate body</li>
+                                <li>Family</li>
+                            </ul></li>
+                    </ul></li>
+            </ul>
+            <p>Of these, "person" and "corporate body" are most likely to be used for routine cataloging of music materials. </p>
+            <table frame="none" rowsep="0" colsep="0" id="table_km5_yrz_wxb">
+                <tgroup cols="4" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*"/>
+                    <colspec colname="c4" colnum="4" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>PCC Relationship Label</entry>
+                            <entry>RDA Elements</entry>
+                            <entry>Original RDA Relationship Designator</entry>
+                            <entry>Scope</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry morerows="2">composer</entry>
+                            <entry>composer agent of work</entry>
+                            <entry morerows="2">composer</entry>
+                            <entry morerows="2">An agent who created a musical work, including a work that incorporates text by another creator.</entry>
+                        </row>
+                        <row>
+                            <entry>composer person of work</entry>
+                        </row>
+                        <row>
+                            <entry>composer corporate body of work</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">author</entry>
+                            <entry>author agent</entry>
+                            <entry morerows="2">author</entry>
+                            <entry morerows="2">An agent who created a textual work (such as a poem) later set to music. Most often applicable to art music; for dramatic music see <term>librettist</term> and <term>lyricist</term>. For most popular music see <term>lyricist</term>.  </entry>
+                        </row>
+                        <row>
+                            <entry>author person</entry>
+                        </row>
+                        <row>
+                            <entry>author corporate body</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">librettist</entry>
+                            <entry>lyricist agent</entry>
+                            <entry morerows="2">librettist</entry>
+                            <entry morerows="2">An agent who created the text of an opera, oratorio, or other sung stage work. For musical theater, an agent who created the spoken text; for sung text of a musical, see <term>lyricist</term>.</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist person</entry>
+                        </row>
+                        <row>
+                            <entry>lyricist corporate body</entry>
+                        </row>
+                        <row>
+                            <entry morerows="2">lyricist</entry>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
     </body>
 </topic>

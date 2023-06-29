@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="marc_example_generator.css"?> 
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="marc_example_generator">
+    <title>MARC Example Generator</title>
+    <body>
+        <p>This page includes author-mode customizations to simplify creating MARC example blocks with all the correct elements and outputclass attributes to be properly formatted after publishing.</p>
+        <section id="section_lm1_xvd_5xb">
+            <title>New Individual Example(s)</title>
+        </section>
+        <section id="section_tgl_c5h_yxb">
+            <title outputclass="rdaPage"/>
+            <div outputclass="rdaPageSubgroup">
+                <table frame="none" outputclass="bpExample" id="table_ch3_25h_yxb">
+                    <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                        <colspec colname="field" colnum="1" colwidth="2*"/>
+                        <colspec colname="ind" colnum="2" colwidth="3*"/>
+                        <colspec colname="data" colnum="3" colwidth="25*"/>
+                        <tbody>
+                            <row outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag">200</entry>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText"/>
+                            </row>
+                            <row outputclass="exampleConjunction">
+                                <entry namest="field" nameend="data" outputclass="marcComment"
+                                    >Or</entry>
+                            </row>
+                            <row outputclass="exampleCaption">
+                                <entry namest="field" nameend="data" outputclass="marcComment"/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+                <table frame="none" outputclass="bpExample" id="table_gr4_25h_yxb">
+                    <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                        <colspec colname="field" colnum="1" colwidth="2*"/>
+                        <colspec colname="ind" colnum="2" colwidth="3*"/>
+                        <colspec colname="data" colnum="3" colwidth="25*"/>
+                        <tbody>
+                            <row outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag"/>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText"/>
+                            </row>
+                            <row outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag"/>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText"/>
+                            </row>
+                            <row outputclass="exampleConjunction">
+                                <entry namest="field" nameend="data" outputclass="marcComment"/>
+                            </row>
+                            <row outputclass="marcContent">
+                                <entry colname="field" outputclass="marcTag"/>
+                                <entry colname="ind" outputclass="marcInd"/>
+                                <entry colname="data" outputclass="marcText"/>
+                            </row>
+                            <row outputclass="exampleCaption">
+                                <entry namest="field" nameend="data" outputclass="marcComment"/>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </div>
+        </section>
+      <!--
+      Templates for examples
+    
+      Full Table
+      <section id="REPLACE-ME">
+      <title outputclass="rdaPage">Title of element/chapter</title>
+         <div outputclass="rdaPageSubgroup">
+               <p outputclass="subheading">Subheading in element/chapter page (omit if not applicable)</p>
+               <p outputclass="oldNumber">Original RDA Instruction Number (omit if not applicable)</p>
+               <p outputclass="oldName">Original RDA Name (omit if same in new Toolkit)</p>
+               <table frame="none" outputclass="bpExample" id="REPLACE-ME-TOO">
+                  <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                     <colspec colname="field" colnum="1" colwidth="2*"/>
+                     <colspec colname="ind" colnum="2" colwidth="3*"/>
+                     <colspec colname="data" colnum="3" colwidth="25*"/>
+                     <tbody>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">008</entry>
+                           <entry colname="ind" outputclass="marcBytes">22</entry>
+                           <entry colname="data" outputclass="marcText">MARC fixed-field byte value(s)</entry>
+                        </row>
+                        <row outputclass="exampleConjunction">
+                           <entry namest="field" nameend="data" outputclass="marcComment">And/Or/But/Not</entry>
+                        </row>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">110</entry>
+                           <entry colname="ind" outputclass="marcInd">2#</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield </entry>
+                        </row>
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">245</entry>
+                           <entry colname="ind" outputclass="marcInd">14</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The boréales : <ph outputclass="sf">$b</ph> sound of northern Europe / <ph outputclass="sf">$c</ph> Majorstuen.</entry>
+                        </row>
+                        <row outputclass="exampleCaption">
+                           <entry namest="field" nameend="data" outputclass="marcComment">Commentary/context/clarification for example</entry>
+                        </row>
+                     </tbody>
+                  </tgroup>
+               </table>
+            </div>
+      </section>
+      
+      MARC fixed-field row (formats second column as bytes preceded by "/")
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">008</entry>
+                           <entry colname="ind" outputclass="marcBytes">22</entry>
+                           <entry colname="data" outputclass="marcText">MARC fixed-field byte value(s)</entry>
+                        </row>
+      
+      MARC variable-field row
+                        <row outputclass="marcContent">
+                           <entry colname="field" outputclass="marcTag">110</entry>
+                           <entry colname="ind" outputclass="marcInd">2#</entry>
+                           <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield <ph outputclass="sf">$e</ph> Variable subfield </entry>
+                        </row>
+                        
+      Conjunction between rows (and/or/but/not)
+                        <row outputclass="exampleConjunction">
+                           <entry namest="field" nameend="data" outputclass="marcComment">And/Or/But/Not</entry>
+                        </row>      
+      
+      Comment on example
+                         <row outputclass="exampleCaption">
+                           <entry namest="field" nameend="data" outputclass="marcComment">Commentary/context/clarification for example</entry>
+                        </row>     
+      -->
+    </body>
+</topic>

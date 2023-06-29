@@ -1,7 +1,0 @@
-2022-08
-    Added new section under Bibligraphic Description for format-specific guidance
-        Added subsections for electronic resources
-    Added scores and parts to the section on parallel aggregates
-
-2022-03-29
-    Examples for Guidance: Introduction to RDA. Data elements. Recording data elements: Corrected two examples to use PCC relationship labels. Added PCC relationship label boilerplate.

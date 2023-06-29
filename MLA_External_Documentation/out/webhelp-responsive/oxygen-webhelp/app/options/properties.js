@@ -10,6 +10,7 @@ define(
     "webhelp.search.enable.pagination" : "true",
     "webhelp.search.page.numberOfItems" : "10",
     "webhelp.search.ranking" : "true",
+    "webhelp.show.child.links" : "yes",
     "webhelp.show.full.size.image" : "true",
     "webhelp.show.main.page.tiles" : "no",
     "webhelp.show.main.page.toc" : "yes",

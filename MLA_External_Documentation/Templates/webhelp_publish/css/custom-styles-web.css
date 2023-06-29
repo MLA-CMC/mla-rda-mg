@@ -58,6 +58,13 @@
 /* *************************** */
 
 /* Presentation tweaks */
+
+/* Suppress default note icon and padding */
+div.note {
+    background-image: none !important;
+    padding: 0.75em !important;
+}
+
 /* Center text */
 .centered {
     text-align:center !important

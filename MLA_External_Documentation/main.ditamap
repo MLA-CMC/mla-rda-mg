@@ -21,7 +21,7 @@
     </bookmeta>
     <frontmatter>
         <keydef keys="b_bp_mla" href="bp_MLA_BP_copy.dita"/>
-        <keydef keys="bped_ex" href="./Content/bp_examples_consolidated.dita"/>
+        <keydef keys="bped_ex" href="Content/marc_examples.dita"/>
         <keydef keys="bped_boilerplate" href="./bp_external.dita">
             <data>
                 <draft-comment author="keknop">Publication information and history and citation information are inserted as frontmatter in the PDF version and are ignored by the table of contents (the "toc='no'" attribute on the notices tag, below). Unfortunately this suppresses them from the web version (and if it weren't suppresed it would appear as the first "chapter," which is questionable). As a workaround, the frontmatter file is added twice: here and as the last chapter ("web_colophon") at the end of the map, with the outputclass attributes "pdfonly" and "webonly" respectively. In the transformation scenarios for PDF and web there are filters set (right click on scenario > Edit > Filters tab) so the PDF transformation ignores the
@@ -35,49 +35,49 @@
             <toc/>
         </booklists>
     </frontmatter>
-    <chapter href="Content/intro.dita" navtitle="Introduction">
-        <topicref href="Content/1_Intro/intro_interpreting_bps.dita"/>
-        <topicref href="Content/1_Intro/intro_mla_application_profile.dita"/>
+    <chapter href="Content/Intro/intro.dita" navtitle="Introduction">
+        <topicref href="Content/Intro/intro_interpreting_bps.dita"/>
+        <topicref href="Content/Intro/intro_mla_application_profile.dita"/>
     </chapter>
-    <chapter navtitle="LRM and RDA Concepts" href="Content/lrm_and_rda_concepts.dita">
-        <topicref href="./Content/2_LRM/representative_expressions.dita" navtitle="Representative Expressions and Representative Expression Elements ">
-            <topicref href="./Content/2_LRM/representative_expression_treatment.dita" navtitle="Treatment of Representative Expressions"/>
+    <chapter navtitle="LRM and RDA Concepts" href="Content/LRM/lrm_and_rda_concepts.dita">
+        <topicref href="./Content/LRM/representative_expressions.dita" navtitle="Representative Expressions and Representative Expression Elements ">
+            <topicref href="./Content/LRM/representative_expression_treatment.dita" navtitle="Treatment of Representative Expressions"/>
         </topicref>
-        <topicref href="./Content/2_LRM/aggregates.dita" navtitle="Aggregates">
-            <topicref href="Content/2_LRM/aggregates_aaps.dita" navtitle="Authorized Access Points for Aggregating Works and Expressions"/>
+        <topicref href="./Content/LRM/aggregates.dita" navtitle="Aggregates">
+            <topicref href="Content/LRM/aggregates_aaps.dita" navtitle="Authorized Access Points for Aggregating Works and Expressions"/>
         </topicref>
     </chapter>
-    <chapter href="Content/musical_we.dita" navtitle="Musical Works and Expressions">
-        <topicref href="Content/3_WE/musical_we_preferred_titles.dita"/>
-        <topicref href="Content/3_WE/musical_we_aaps.dita"/>
+    <chapter href="Content/WE/musical_we.dita" navtitle="Musical Works and Expressions">
+        <topicref href="Content/WE/musical_we_preferred_titles.dita"/>
+        <topicref href="Content/WE/musical_we_aaps.dita"/>
     </chapter>
-    <chapter href="Content/bib_description.dita" navtitle="Bibliographic Description">
-        <topicref format="dita" href="./Content/4_Description/Elements/bib_element_overview_marc.dita" navtitle="Element Overview: MARC Bibliographic"/>
-        <topicref href="Content/4_Description/Elements/bib_element_guidance.dita" navtitle="Guidance for Specific Elements">
-            <topicref href="Content/4_Description/Elements/bib_manifestation_elements.dita"/>
-            <topicref href="Content/4_Description/Elements/bib_expression_elements.dita"/>
-            <topicref href="Content/4_Description/Elements/bib_work_elements.dita"/>
+    <chapter href="Content/Description/bib_description.dita" navtitle="Bibliographic Description">
+        <topicref format="dita" href="./Content/Description/Elements/bib_element_overview_marc.dita" navtitle="Element Overview: MARC Bibliographic"/>
+        <topicref href="Content/Description/Elements/bib_element_guidance.dita" navtitle="Guidance for Specific Elements">
+            <topicref href="Content/Description/Elements/bib_manifestation_elements.dita"/>
+            <topicref href="Content/Description/Elements/bib_expression_elements.dita"/>
+            <topicref href="Content/Description/Elements/bib_work_elements.dita"/>
         </topicref>
-        <topicref href="Content/4_Description/Formats/bib_format_specific_guidance.dita" navtitle="Guidance for Specific Formats">
-            <topicref href="Content/4_Description/Formats/electronic_and_reproductions.dita" navtitle="Electronic Resources and Print Reproductions">
-                <topicref href="Content/4_Description/Formats/provider_neutral_cataloging.dita" navtitle="Provider-Neutral Cataloging"/>
-                <topicref href="Content/4_Description/Formats/formats_electronic.dita" navtitle="Electronic Resources">
-                    <topicref href="Content/4_Description/Formats/formats_electronic_all.dita"/>
-                    <topicref href="Content/4_Description/Formats/formats_electronic_direct.dita"/>
-                    <topicref href="Content/4_Description/Formats/formats_electronic_remote.dita"/>
-                    <topicref href="Content/4_Description/Formats/formats_electronic_scores.dita"/>
+        <topicref href="Content/Description/Formats/bib_format_specific_guidance.dita" navtitle="Guidance for Specific Formats">
+            <topicref href="Content/Description/Formats/electronic_and_reproductions.dita" navtitle="Electronic Resources and Print Reproductions">
+                <topicref href="Content/Description/Formats/provider_neutral_cataloging.dita" navtitle="Provider-Neutral Cataloging"/>
+                <topicref href="Content/Description/Formats/formats_electronic.dita" navtitle="Electronic Resources" chunk="to-content">
+                    <topicref href="Content/Description/Formats/formats_electronic_all.dita" toc="yes"/>
+                    <topicref href="Content/Description/Formats/formats_electronic_direct.dita" toc="yes"/>
+                    <topicref href="Content/Description/Formats/formats_electronic_remote.dita" toc="yes"/>
+                    <topicref href="Content/Description/Formats/formats_electronic_scores.dita" toc="yes"/>
                 </topicref>
-                <topicref href="Content/4_Description/Formats/print_reproductions.dita" navtitle="Print Reproductions">
-                    <topicref href="Content/4_Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications"/>
+                <topicref href="Content/Description/Formats/print_reproductions.dita" navtitle="Print Reproductions" chunk="to-content">
+                    <topicref href="Content/Description/Formats/original_pod_publications.dita" navtitle="Original Print-on-Demand Publications" toc="yes"/>
                 </topicref>
             </topicref>
-            <topicref href="Content/4_Description/Formats/formats_sound_recordings.dita">
-                <topicref href="Content/4_Description/Formats/formats_sound_recordings_labels.dita"/>
-                <topicref href="Content/4_Description/Formats/formats_sound_recordings_performers.dita"/>
+            <topicref href="Content/Description/Formats/formats_sound_recordings.dita" chunk="to-content">
+                <topicref href="Content/Description/Formats/formats_sound_recordings_labels.dita"/>
+                <topicref href="Content/Description/Formats/formats_sound_recordings_performers.dita"/>
             </topicref>
         </topicref>
     </chapter>
-    <chapter href="Content/bp_examples_consolidated.dita"/>
+    <chapter href="Content/marc_examples.dita"/>
     <chapter href="Content/web_colophon.dita" outputclass="webonly">
         <anchorref>
             <data>

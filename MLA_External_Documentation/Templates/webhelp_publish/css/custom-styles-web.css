@@ -24,7 +24,7 @@
 }
 /* *************************** */
 
-/* Add RDA/LC-PCC/MLA icon after links to RDA Toolkit */
+/* Add RDA/LC-PCC/MLA/external icon after links */
 .rdatk:after {
     content:url(../resources/images/rda-icon.png);
     display:inline-block;
@@ -55,6 +55,16 @@
     height:10px;
     padding-left:4px;
 }
+.externallink:after {
+    content:url(../resources/images/external-icon-sm.png);
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    width:19px;
+    height:15px;
+    padding-left:4px;
+}
 /* *************************** */
 
 /* Presentation tweaks */
@@ -64,6 +74,62 @@ div.note {
     background-image: none !important;
     padding: 0.75em !important;
 }
+
+/* Color overrides for contrast and accessibility */
+     
+        /* In-page TOC (left side) */
+        div.wh_publication_toc {
+            background-color:#FAFAFA !important;
+        }
+        .wh_publication_toc .active > .topicref a {
+            color:#2552AA !important;    
+        }
+        .wh_publication_toc span, .wh_publication_toc a, .wh_publication_toc a:visited, .wh_publication_toc a:hover {
+            color:#505050 !important;
+        }
+        
+        /* "On this page" (right side) */
+        .wh_topic_toc a, a:hover {
+            color:#2552AA;
+        }
+
+        /* Main page TOC */
+        .wh_main_page_toc a{
+            color:#2552AA;
+        }
+        
+        /* Breadcrumbs*/
+        .wh_breadcrumb li>span>span>a {
+            color:#505050;
+        }
+        .wh_breadcrumb li.active>span>span>a{
+            color:#2552AA;
+        }   
+        .wh_breadcrumb li>span.home>a {
+            color:#505050;
+        }
+        .wh_tools {
+            background-color:#f7fbff;      
+        }
+        
+        /* Top menu link color */
+        .wh_top_menu a {
+            color:#FFFFFF;
+        }
+        
+        /* General link color */
+                /* General in-page text links */
+               *[class ~= 'topic/xref'], *[class ~='topic/link']{
+                   color:#2552AA;
+               }
+                /* Links in note boxes */        
+                .note>*[class ~= 'topic/xref'], *[class ~='topic/link']{
+                    color:#2552AA;                    
+                }
+        
+        a:hover {
+            text-decoration:underline;
+        }
 
 /* Center text */
 .centered {
@@ -84,7 +150,6 @@ div.note {
 
 /* Styling for colophon table */
 table.colophon {
-    /*  width:600px !important; */
     max-width:600px !important;
     margin-left:auto;
     margin-right:auto;
@@ -159,7 +224,6 @@ p.oldName {
 }
 
 table.bpExample {
-    /*  width:600px !important; */
     max-width:800px !important;
     background-color:rgba(225, 245, 255, 1);
     border-collapse:separate;
@@ -169,20 +233,6 @@ table.bpExample {
     page-break-inside:avoid;
 }
 
-/* 
-table.bpExample > colgroup > col {
-    max-width: 30px !important;   
-}
-
-.marcTag {
-    max-width: 30px !important;   
-}
-
-table.bpExample > colgroup > col.last-of-type {
-    min-width:400px;
-}
- */
-
 tgroup.marcBlock {
 }
 
@@ -190,6 +240,7 @@ tr.marcContent {
     line-height:1 !important;
     padding: 0px !important;
 }
+
 tr.exampleConjunction, tr.exampleCaption {
 }
 
@@ -228,7 +279,8 @@ span.sf {
     color:blue;
 }
 
-/* Disable punctuation processing for now except to hide relocated/duplicated punctuation included in isbd-minimal
+/* Disable punctuation processing for now except to hide relocated/duplicated punctuation included in isbd-minimal*/
+/* 
 span.isbd-full:hover, span.isbd-minimal:hover, span.isbd-internal:hover, span.isbd-integral:hover, span.isbd-aap:hover {
     background-color:white;
 }

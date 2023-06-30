@@ -1840,8 +1840,10 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Ryerson, Edward L. <ph outputclass="sf">$q</ph> (Edward Larned), <ph outputclass="sf">$d</ph> 1886-1971, <ph outputclass="sf">$e</ph> former
-                           owner, <ph outputclass="sf">$e</ph> dedicatee.</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Ryerson, Edward L. <ph outputclass="sf">$q</ph> (Edward Larned), <ph outputclass="sf">$d</ph> 1886-1971, <ph outputclass="sf">$e</ph> dedicatee, <ph outputclass="sf">$e</ph> former owner.</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Relationship labels given in WEMI order, as per <xref href="https://access.rdatoolkit.org/PolicyStatement/Index?externalId=en-US_ala-e1ad503d-f632-305a-8bf4-dc76fec9f004#division_rdaId_78ba86ff-6bed-40d8-9996-28ddc621b95a" format="html" scope="external" outputclass="lcpcctk">LC-PCC PS</xref> and the <xref href="https://loc.gov/aba/pcc/bibco/doc-updates.html" format="html" scope="external" outputclass="externallink">PCC Training Manual for Applying Relationship Designators in Bibliographic Records</xref>.</entry>
                      </row>
                   </tbody>
                </tgroup>

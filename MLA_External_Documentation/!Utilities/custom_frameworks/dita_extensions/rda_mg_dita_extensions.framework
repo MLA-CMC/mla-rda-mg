@@ -66,7 +66,7 @@
 										<field name="value">
 											<action>
 												<field name="id">
-													<String>addMARCSubfield</String>
+													<String>mlaAddMARCSubfield</String>
 												</field>
 												<field name="name">
 													<String>Add MARC Subfield</String>
@@ -122,6 +122,101 @@
 													<Boolean>false</Boolean>
 												</field>
 											</action>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors</String>
+										</field>
+										<field name="index">
+											<Integer>92</Integer>
+										</field>
+										<field name="value">
+											<action>
+												<field name="id">
+													<String>mlaSetLinkType</String>
+												</field>
+												<field name="name">
+													<String>Set Link Type</String>
+												</field>
+												<field name="description">
+													<String></String>
+												</field>
+												<field name="largeIconPath">
+													<String></String>
+												</field>
+												<field name="smallIconPath">
+													<String></String>
+												</field>
+												<field name="accessKey">
+													<String></String>
+												</field>
+												<field name="accelerator">
+													<String>M1 M2 L</String>
+												</field>
+												<field name="actionModes">
+													<actionMode-array>
+														<actionMode>
+															<field name="xpathCondition">
+																<String>self::xref</String>
+															</field>
+															<field name="argValues">
+																<serializableOrderedMap>
+																	<entry>
+																		<String>elementLocation</String>
+																		<String></String>
+																	</entry>
+																	<entry>
+																		<String>name</String>
+																		<String>outputclass</String>
+																	</entry>
+																	<entry>
+																		<String>removeIfEmpty</String>
+																		<String>true</String>
+																	</entry>
+																	<entry>
+																		<String>value</String>
+																		<String>${ask('Link icon?',radio,('rdatk':'RDA Toolkit';'mlatk':'MLA Best Practices';'lcpcctk':'LC-PCC PS';'externallink':'Other External Link';'':'None (internal link)'),'')}</String>
+																	</entry>
+																</serializableOrderedMap>
+															</field>
+															<field name="operationID">
+																<String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+															</field>
+														</actionMode>
+													</actionMode-array>
+												</field>
+												<field name="enabledInReadOnlyContext">
+													<Boolean>false</Boolean>
+												</field>
+											</action>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/popupMenuDescriptor/menuEntriesDescriptorList/[6]/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<menuItem>
+												<field name="actionID">
+													<String>mlaSetLinkType</String>
+												</field>
+											</menuItem>
 										</field>
 										<field name="patchHandling">
 											<String>addIndex</String>

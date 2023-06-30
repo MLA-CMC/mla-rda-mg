@@ -11,7 +11,7 @@ span.note__title {
 
 /*notes-colors-colorful*/
 *[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
-  background-color: rgba(0, 120, 160, 0.09);
+  background-color: rgba(225, 245, 255, 0.33);
   border-color: #0078A0;
 }
 *[class~="topic/note"].note_danger,

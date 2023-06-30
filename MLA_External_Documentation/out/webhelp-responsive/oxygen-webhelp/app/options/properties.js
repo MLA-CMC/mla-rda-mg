@@ -1,6 +1,7 @@
 define(
   { "default.language" : "en",
     "use.stemming" : "false",
+    "webhelp.default.collection.type.sequence" : "yes",
     "webhelp.enable.search.autocomplete" : "true",
     "webhelp.enable.search.kuromoji.js" : "true",
     "webhelp.enable.template.js.module.loading" : "no",

@@ -2,6 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <keydef keys="b_bp_mla" href="bp_MLA_BP_copy.dita"/>
-    <keydef keys="bped_ex" href="Content/marc_examples.dita"/>
+    <keydef keys="bped_ex" href="Content/Examples/marc_examples_by_element.dita"/>
     <keydef keys="bped_boilerplate" href="./bp_external.dita"/>
 </map>

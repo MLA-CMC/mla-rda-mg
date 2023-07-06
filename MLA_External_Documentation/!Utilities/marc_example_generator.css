@@ -15,10 +15,6 @@ oxy|comment:after {
     display:block;
 }
 
-colspec{
-  display : none ;
-}
-
 section{
     width:80%;
     padding-right:50px;
@@ -43,7 +39,6 @@ title[outputclass='rdaPage']:before{
     display:block;
     content:
     oxy_label(text, "RDA ELEMENT/CHAPTER", styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")
-
 }
 
 title[outputclass='rdaPage']{
@@ -142,10 +137,19 @@ p[outputclass='oldName']{
     -oxy-placeholder-content:"Original RDA name if different (delete if unneeded)";
 }
 
-table:before{
+table[outputclass='bpExample']:before{
     display:block;
     content:
     oxy_label(text, "MARC EXAMPLE", styles, "font-weight:bold;font-size:small;color:rgba(200,200,200,1)")    
+}
+
+table[outputclass='bpExample']>title {
+    height:1px;
+    max-height:1px;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+    visibility:-oxy-collapse-text;
 }
 
 tgroup:after {

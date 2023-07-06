@@ -52,7 +52,7 @@
       <css file="css/custom-styles-web.css"/>
       <!-- Notes -->
       <css file="css/notes.css"/>
-      <logo file="resources/images/mla_logo_w.png"/>
+      <logo file="resources/images/mla_logo_w.png" alt=""/>
       <!-- Images -->
       <fileset>
         <include name="resources/**/*"/>
@@ -61,6 +61,13 @@
       </fileset>
     </resources>
     
+    <!-- 
+    
+    -->
+    <xslt>
+      <extension file="xsl/custom_output.xsl" id="com.oxygenxml.webhelp.xsl.dita2webhelp"/>
+      
+    </xslt>
     <!--
       You can set one or more WebHelp transformation parameters in the descriptor file.
     -->

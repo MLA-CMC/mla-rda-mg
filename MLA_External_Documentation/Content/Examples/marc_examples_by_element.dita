@@ -1,212 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
-<topic id="marc_examples">
+<topic id="marc_examples_by_element">
    <title>MARC Examples by Element</title>
    <body>
       <p>Indicator notation conventions:<dl id="dl_q54_bn5_4sb">
-            <dlentry>
-               <dt>#</dt>
-               <dd>Blank value; indicator position is undefined.</dd>
-            </dlentry>
-            <dlentry>
-               <dt>_</dt>
-               <dd>Blank value; indicator position has a specific meaning assigned to blank values.</dd>
-            </dlentry>
-         </dl></p>
-      <section id="section_upt_xkf_vrb">
-         <title outputclass="rdaPage">Agent: creator agent of expression (and narrower elements)</title>
-         <div outputclass="rdaPageSubgroup">
-            <p outputclass="oldNumber">20.2</p>
-            <p outputclass="oldName">Contributor</p>
-            <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_jdl_c3k_nsb"/>
-            <table frame="none" outputclass="bpExample" id="table_vpt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">110</entry>
-                        <entry colname="ind" outputclass="marcInd">2#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Majorstuen (Musical group), <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph>
-                            instrumentalist.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">245</entry>
-                        <entry colname="ind" outputclass="marcInd">14</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The boréales : <ph outputclass="sf">$b</ph> sound of northern Europe / <ph outputclass="sf">$c</ph>
-                            Majorstuen.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">511</entry>
-                        <entry colname="ind" outputclass="marcInd">0#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Majorstuen (Jorun Marie Kvernberg ; Andreas Ljones ; Gjermund
-                            Larsen ; Tove Dalbakk ; Synnøve S. Bjørset ; Ragnhild
-                            Furebotten).</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">No access points given for the individual perfomers in the group. Note that in this example, the performing group is the creator of both the work (composer) and the expression (instrumentalist).</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-            <table frame="none" outputclass="bpExample" id="table_wpt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">511</entry>
-                        <entry colname="ind" outputclass="marcInd">0#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Philharmonia Orchestra ; Christoph von Dohnányi, conductor.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Dohnányi, Christoph von, <ph outputclass="sf">$e</ph> conductor.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">710</entry>
-                        <entry colname="ind" outputclass="marcInd">2#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Philharmonia Orchestra (London, England), <ph outputclass="sf">$e</ph> instrumentalist.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-            <table frame="none" outputclass="bpExample" id="table_xpt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">245</entry>
-                        <entry colname="ind" outputclass="marcInd">00</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Morning has broken : <ph outputclass="sf">$b</ph> playtime songs on flute and harp / <ph outputclass="sf">$c</ph> Steve Alder, Julie Keyes ; arranged by Kurt Bestor.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Alder, Steve, <ph outputclass="sf">$e</ph> instrumentalist.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Keyes, Julie, <ph outputclass="sf">$e</ph> instrumentalist.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Bestor, Kurt, <ph outputclass="sf">$e</ph> arranger of music.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-            <table frame="none" outputclass="bpExample" id="table_ypt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">245</entry>
-                        <entry colname="ind" outputclass="marcInd">04</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The Doris Day songbook.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">500</entry>
-                        <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Popular songs and excerpts from motion pictures, as performed by Doris Day.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Day, Doris, <ph outputclass="sf">$d</ph> 1922-2019, <ph outputclass="sf">$e</ph> related person.</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Nature of relationship to resource indirect or unclear.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-         </div>
-      </section>
-      <section id="section_eqt_xkf_vrb">
-         <title outputclass="rdaPage">Agent: creator agent of work (and narrower elements)</title>
-         <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_m2l_d3k_nsb"/>
-         <div outputclass="rdaPageSubgroup">
-            <p outputclass="oldNumber">19.2</p>
-            <p outputclass="oldName">Creator</p>
-            <table frame="none" outputclass="bpExample" id="table_fqt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">100</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Chandler, Matt, <ph outputclass="sf">$d</ph> 1974- <ph outputclass="sf">$e</ph> author.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">245</entry>
-                        <entry colname="ind" outputclass="marcInd">14</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The explicit gospel / <ph outputclass="sf">$c</ph> Matt Chandler with Jared
-                            Wilson.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Wilson, Jared C., <ph outputclass="sf">$d</ph> 1975- <ph outputclass="sf">$e</ph> author.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-            <table frame="none" outputclass="bpExample" id="table_gqt_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">100</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Helvacioğlu , Erdem, <ph outputclass="sf">$d</ph> 1975- <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph>
-                            performer.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">245</entry>
-                        <entry colname="ind" outputclass="marcInd">10</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Planet X / <ph outputclass="sf">$c</ph> Erdem Helvacioğlu, Ulrich Mertin.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">500</entry>
-                        <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> "All compositions by Erdem Helvacioğlu, and Ulrich
-                            Mertin”--Program notes.</entry>
-                     </row>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">700</entry>
-                        <entry colname="ind" outputclass="marcInd">1#</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Mertin, Ulrich, <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph> performer.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-         </div>
-      </section>
+         <dlentry>
+            <dt>#</dt>
+            <dd>Blank value; indicator position is undefined.</dd>
+         </dlentry>
+         <dlentry>
+            <dt>_</dt>
+            <dd>Blank value; indicator position has a specific meaning assigned to blank values.</dd>
+         </dlentry>
+      </dl></p>
       <section id="section_kqt_xkf_vrb">
          <title outputclass="rdaPage">Community resources. Community refinements. Work refinements: preferred title of musical work: legacy Anglo-American instructions</title>
          <div outputclass="rdaPageSubgroup">
             <p outputclass="oldNumber">6.14.2.3.1</p>
             <p outputclass="oldName">Preferred title for a musical work</p>
             <table frame="none" outputclass="bpExample" id="table_lqt_xkf_vrb">
+
                <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
                   <colspec colname="field" colnum="1" colwidth="2*"/>
                   <colspec colname="ind" colnum="2" colwidth="3*"/>
                   <colspec colname="data" colnum="3" colwidth="25*"/>
+
                   <tbody>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">100</entry>
@@ -219,16 +38,13 @@
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Beethoven, Ludwig van, <ph outputclass="sf">$d</ph> 1770-1827. <ph outputclass="sf">$t</ph> Songs, <ph outputclass="sf">$n</ph> op. 75</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Record in authority format. Titles on resource: Sechs Gesänge = Six songs : op. 75</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Title in Kinsky: Sechs Gesänge für eine Singstimme mit Klavierbegleitung, opus 75</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Title in Grove Music Online: Six songs, op. 75</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Original language chosen for the preferred title.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">
+                           <p>Record in authority format. </p>
+                           <p>Titles on resource: Sechs Gesänge = Six songs : op. 75</p>
+                           <p>Title in Kinsky: Sechs Gesänge für eine Singstimme mit Klavierbegleitung, opus 75</p>
+                           <p>Title in Grove Music Online: Six songs, op. 75</p>
+                           <p>Original language chosen for the preferred title.</p>
+                        </entry>
                      </row>
                      <row valign="top" outputclass="exampleConjunction">
                         <entry namest="field" nameend="data" outputclass="marcComment">But</entry>
@@ -244,22 +60,14 @@
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Bartók, Béla, <ph outputclass="sf">$d</ph> 1881-1945. <ph outputclass="sf">$t</ph> Négyesek, <ph outputclass="sf">$m</ph> violins (2), viola, cello, <ph outputclass="sf">$n</ph> no. 1, op. 7</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Titles on resource: I vonósnégyes = Streichquartett Nr. 1 = String quartet no. 1 : op. 7</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Title in Somfai: String quartet no. 1, op. 7</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Title in Grove Music Online: String quartet no. 1, op. 7</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Title in Antokoletz: I vonósnégyes [String quartet no. 1] op. 7</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Preferred title chosen for other Bartok string quartets already present in the LCNAF: Quartets</entry>
-                     </row>
-                     <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">English language chosen for the preferred title.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">
+                           <p>Titles on resource: I vonósnégyes = Streichquartett Nr. 1 = String quartet no. 1 : op. 7</p>
+                           <p>Title in Somfai: String quartet no. 1, op. 7</p>
+                           <p>Title in Grove Music Online: String quartet no. 1, op. 7</p>
+                           <p>Title in Antokoletz: I vonósnégyes [String quartet no. 1] op. 7</p>
+                           <p>Preferred title chosen for other Bartok string quartets already present in the LCNAF: Quartets</p>
+                           <p>English language chosen for the preferred title.</p>
+                        </entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -903,6 +711,121 @@
                         <entry colname="field" outputclass="marcTag">336</entry>
                         <entry colname="ind" outputclass="marcInd">##</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$3</ph> videodisc <ph outputclass="sf">$a</ph> two-dimensional moving image <ph outputclass="sf">$2</ph> rdacontent </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+      </section>
+      <section id="section_upt_xkf_vrb">
+         <title outputclass="rdaPage">Expression: creator agent of expression (and narrower elements)</title>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="oldNumber">20.2</p>
+            <p outputclass="oldName">Contributor</p>
+            <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_jdl_c3k_nsb"/>
+            <table frame="none" outputclass="bpExample" id="table_vpt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">110</entry>
+                        <entry colname="ind" outputclass="marcInd">2#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Majorstuen (Musical group), <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph> instrumentalist.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">14</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The boréales : <ph outputclass="sf">$b</ph> sound of northern Europe / <ph outputclass="sf">$c</ph> Majorstuen.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">511</entry>
+                        <entry colname="ind" outputclass="marcInd">0#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Majorstuen (Jorun Marie Kvernberg ; Andreas Ljones ; Gjermund Larsen ; Tove Dalbakk ; Synnøve S. Bjørset ; Ragnhild Furebotten).</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">No access points given for the individual perfomers in the group. Note that in this example, the performing group is the creator of both the work (composer) and the expression (instrumentalist).</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_wpt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">511</entry>
+                        <entry colname="ind" outputclass="marcInd">0#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Philharmonia Orchestra ; Christoph von Dohnányi, conductor.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Dohnányi, Christoph von, <ph outputclass="sf">$e</ph> conductor.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">710</entry>
+                        <entry colname="ind" outputclass="marcInd">2#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Philharmonia Orchestra (London, England), <ph outputclass="sf">$e</ph> instrumentalist.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_xpt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">00</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Morning has broken : <ph outputclass="sf">$b</ph> playtime songs on flute and harp / <ph outputclass="sf">$c</ph> Steve Alder, Julie Keyes ; arranged by Kurt Bestor.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Alder, Steve, <ph outputclass="sf">$e</ph> instrumentalist.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Keyes, Julie, <ph outputclass="sf">$e</ph> instrumentalist.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Bestor, Kurt, <ph outputclass="sf">$e</ph> arranger of music.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_ypt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">04</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The Doris Day songbook.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">500</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Popular songs and excerpts from motion pictures, as performed by Doris Day.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Day, Doris, <ph outputclass="sf">$d</ph> 1922-2019, <ph outputclass="sf">$e</ph> related person.</entry>
+                     </row>
+                     <row valign="top" outputclass="exampleCaption">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Nature of relationship to resource indirect or unclear.</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -6194,6 +6117,67 @@
             </table>
          </div>
       </section>
+      <section id="section_eqt_xkf_vrb">
+         <title outputclass="rdaPage">Work: creator agent of work (and narrower elements)</title>
+         <note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_m2l_d3k_nsb"/>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="oldNumber">19.2</p>
+            <p outputclass="oldName">Creator</p>
+            <table frame="none" outputclass="bpExample" id="table_fqt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">100</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Chandler, Matt, <ph outputclass="sf">$d</ph> 1974- <ph outputclass="sf">$e</ph> author.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">14</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> The explicit gospel / <ph outputclass="sf">$c</ph> Matt Chandler with Jared Wilson.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Wilson, Jared C., <ph outputclass="sf">$d</ph> 1975- <ph outputclass="sf">$e</ph> author.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+            <table frame="none" outputclass="bpExample" id="table_gqt_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">100</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Helvacioğlu , Erdem, <ph outputclass="sf">$d</ph> 1975- <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph> performer.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">245</entry>
+                        <entry colname="ind" outputclass="marcInd">10</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Planet X / <ph outputclass="sf">$c</ph> Erdem Helvacioğlu, Ulrich Mertin.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">500</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> "All compositions by Erdem Helvacioğlu, and Ulrich Mertin”--Program notes.</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">700</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> Mertin, Ulrich, <ph outputclass="sf">$e</ph> composer, <ph outputclass="sf">$e</ph> performer.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+      </section>
       <section id="section_ec5_xkf_vrb">
          <title outputclass="rdaPage">Work: date of work</title>
          <div outputclass="rdaPageSubgroup">
@@ -6810,5 +6794,5 @@
             </table>
          </div>
       </section>
-   </body>
+   </body>   
 </topic>

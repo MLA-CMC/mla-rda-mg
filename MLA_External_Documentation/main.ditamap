@@ -21,7 +21,7 @@
     </bookmeta>
     <frontmatter>
         <keydef keys="b_bp_mla" href="bp_MLA_BP_copy.dita"/>
-        <keydef keys="bped_ex" href="Content/marc_examples.dita"/>
+        <keydef keys="bped_ex" href="Content/Examples/marc_examples_by_element.dita"/>
         <keydef keys="bped_boilerplate" href="./bp_external.dita">
             <data>
                 <draft-comment author="keknop">Publication information and history and citation information are inserted as frontmatter in the PDF version and are ignored by the table of contents (the "toc='no'" attribute on the notices tag, below). Unfortunately this suppresses them from the web version (and if it weren't suppresed it would appear as the first "chapter," which is questionable). As a workaround, the frontmatter file is added twice: here and as the last chapter ("web_colophon") at the end of the map, with the outputclass attributes "pdfonly" and "webonly" respectively. In the transformation scenarios for PDF and web there are filters set (right click on scenario > Edit > Filters tab) so the PDF transformation ignores the
@@ -77,7 +77,7 @@
             </topicref>
         </topicref>
     </chapter>
-    <chapter href="Content/marc_examples.dita"/>
+    <chapter href="Content/Examples/marc_examples_by_element.dita" chunk="select-branch"/>
     <chapter href="Content/web_colophon.dita" outputclass="webonly">
         <anchorref>
             <data>

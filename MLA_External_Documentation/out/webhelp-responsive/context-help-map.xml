@@ -56,6 +56,7 @@
                path="Content/Description/Formats/formats_sound_recordings.html#formats_sound_recordings_labels"/>
    <appContext helpID="formats_sound_recordings_performers"
                path="Content/Description/Formats/formats_sound_recordings.html#formats_sound_recordings_performers"/>
-   <appContext helpID="marc_examples" path="Content/marc_examples.html"/>
+   <appContext helpID="marc_examples_by_element"
+               path="Content/Examples/marc_examples_by_element.html"/>
    <appContext helpID="web_colophon" path="Content/web_colophon.html"/>
 </map>

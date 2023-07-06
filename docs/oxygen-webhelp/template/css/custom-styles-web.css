@@ -4,6 +4,10 @@
     padding-right:15px;
 }
 
+.wh_publication_title>a:hover{
+    color:#ffffff;
+}
+
 .wh_main_page .wh_search_input {
     padding: 40px 0;
     background: url(../resources/images/bgr_right.png) right no-repeat #5E6573;

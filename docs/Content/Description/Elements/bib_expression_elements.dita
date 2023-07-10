@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="bib_expression_elements">
+    <title>Expression Elements</title>
+    <body>
+        <note id="note_h15_ny3_wrb">Representative expression elements, despite their name, belong to the Work entity, not the Expression entity. For general comments on representative expression elements, see <xref href="../../LRM/representative_expression_treatment.dita"/>.</note>
+        <p>Additional commentary on specific expression elements will be provided in later versions as necessary.</p>
+        <section id="section_wh3_gtz_ssb">
+            <title>medium of performance of musical content</title>
+            <p>MARC recommendations from the MLA Encoding Standards Subcommittee's MARC Cataloging Inefficiency Task Group:</p>
+            <ul id="ul_pff_yrg_tsb">
+                <li>For new bibliographic records, prefer recording medium of performance in field 382 over field 048. In existing records, generally do not update field 048 unless directed by local policy.</li>
+            </ul>
+            <p>This recommendation is reflected in the MLA Best Practices in the RDA Toolkit.</p>
+        </section>
+    </body>
+</topic>

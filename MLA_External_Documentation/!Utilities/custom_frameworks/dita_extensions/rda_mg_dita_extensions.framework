@@ -146,7 +146,7 @@
 													<String>Set Link Type</String>
 												</field>
 												<field name="description">
-													<String></String>
+													<String>Sets the outputclass attribute on an &lt;xref> element to generate a post-link icon when the page is published.</String>
 												</field>
 												<field name="largeIconPath">
 													<String></String>
@@ -155,7 +155,7 @@
 													<String></String>
 												</field>
 												<field name="accessKey">
-													<String></String>
+													<String>L</String>
 												</field>
 												<field name="accelerator">
 													<String>M1 M2 L</String>
@@ -164,13 +164,17 @@
 													<actionMode-array>
 														<actionMode>
 															<field name="xpathCondition">
-																<String>self::xref</String>
+																<String>oxy:current-selected-element()[self::xref]</String>
 															</field>
 															<field name="argValues">
 																<serializableOrderedMap>
 																	<entry>
+																		<String>editAttribute</String>
+																		<String>false</String>
+																	</entry>
+																	<entry>
 																		<String>elementLocation</String>
-																		<String></String>
+																		<String>oxy:current-selected-element()</String>
 																	</entry>
 																	<entry>
 																		<String>name</String>
@@ -196,6 +200,27 @@
 													<Boolean>false</Boolean>
 												</field>
 											</action>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList/[14]/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<menuItem>
+												<field name="actionID">
+													<String>mlaSetLinkType</String>
+												</field>
+											</menuItem>
 										</field>
 										<field name="patchHandling">
 											<String>addIndex</String>

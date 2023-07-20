@@ -18,6 +18,51 @@
                     </ul></li>
             </ul>
             <p>Of these, "person" and "corporate body" are most likely to be used for routine cataloging of music materials. </p>
+            <p>Because the names of relationship elements specify a) the type of relationship being expressed and b) the entities on either end of the relationship, they can easily become verbose and sometimes difficult to parse, making them unsuitable for display to the public. As a result, LC-PCC has created a set of relationship labels </p>
+            <p>Subject </p>
+            <p>
+                <table frame="none" rowsep="0" colsep="0" id="table_rmd_nd4_cyb">
+                    <title>Relationships as sentences</title>
+                    <tgroup cols="3" align="left">
+                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                        <colspec colname="c3" colnum="3" colwidth="1*"/>
+                        <thead>
+                            <row>
+                                <entry>Subject</entry>
+                                <entry>Predicate</entry>
+                                <entry>Object</entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry>Work</entry>
+                                <entry><i>has</i> composer person of work</entry>
+                                <entry>Person</entry>
+                            </row>
+                            <row>
+                                <entry>Die Zauberflöte</entry>
+                                <entry><i>has</i> composer person of work</entry>
+                                <entry>Mozart</entry>
+                            </row>
+                            <row>
+                                <entry>Person</entry>
+                                <entry><i>is</i> composer person of work of</entry>
+                                <entry>Work</entry>
+                            </row>
+                            <row>
+                                <entry>Mozart</entry>
+                                <entry><i>is</i> composer person of work of </entry>
+                                <entry>Die Zauberflöte</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+            <p>The LRM model, like FRBR before it, requires every relationship have an inverse, which is logical: if you can relate a work to its composer(s), it makes sense that you can also relate a composer to their work(s). A small number of relationship elements are perfectly symmetrical and thus are their own inverses. For example, the inverse relationship of "related manifestation of manifestation" is "related manifestation of manifestation"; it is the same type of entity (a manifestation) on both sides of the relationship, and the relationship (an unspecified "related to") is the same in both directions.</p>
+            <p>In practice, however, for most relationships we are more likely to care about one direction of relationship than the other in most contexts. In everyday cataloging we are more likely to catalog a book and need to identify its author than we are to catalog an author and need to identify their works. </p>
+            <p/>
+            <p><b>Wolfgang Amadeus Mozart</b> is <b>[composer person of work]</b> of <b>Die Zauberflöte</b>.</p>
             <table frame="none" rowsep="0" colsep="0" id="table_km5_yrz_wxb">
                 <title>Agent to work relationships</title>
                 <tgroup cols="4" align="left">

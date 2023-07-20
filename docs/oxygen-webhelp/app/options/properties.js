@@ -6,7 +6,7 @@ define(
     "webhelp.enable.search.kuromoji.js" : "true",
     "webhelp.enable.template.js.module.loading" : "no",
     "webhelp.language" : "en",
-    "webhelp.publication.toc.links" : "chapter",
+    "webhelp.publication.toc.links" : "all",
     "webhelp.publication.toc.tooltip.position" : "right",
     "webhelp.search.enable.pagination" : "true",
     "webhelp.search.page.numberOfItems" : "10",

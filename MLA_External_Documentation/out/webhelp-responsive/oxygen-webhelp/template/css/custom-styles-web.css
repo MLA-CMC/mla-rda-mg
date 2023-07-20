@@ -77,6 +77,11 @@
 
 /* Presentation tweaks */
 
+    /* Reduce amount of whitespace at bottom of page and separating page content from child links at bottom of page */
+    .wh_topic_content {
+        margin-bottom: 30px !important; /* Default: 80px */
+    }
+    
     /* Suppress default note icon and padding */
     div.note {
         background-image: none !important;
@@ -272,7 +277,7 @@
         font-size:initial;
         font-weight:normal;
         text-decoration:none;
-        line-height:1 !important;
+        line-height:1.125 !important;
         padding:0px 0px 3px 0px !important;
         page-break-inside:auto !important;
         border: hidden;
@@ -295,7 +300,7 @@
     /* Commentary rows */
     tr.exampleCaption td {
         font-weight: bold;
-        font-size:smaller;
+        font-size:small;
         padding-top:6px;
         padding-bottom:6px;
         line-height:1.2 !important;

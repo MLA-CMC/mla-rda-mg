@@ -7026,47 +7026,47 @@ ${caret}</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>MLA_External_Documentation/Templates/webhelp_publish/webhelp_publish.opt</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Templates/webhelp_publish/css/custom-styles-web.css</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Intro/intro_mla_application_profile.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7106,7 +7106,27 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/Content/Intro/intro_mla_application_profile.dita</String>
+                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -8848,7 +8868,7 @@ ${caret}</String>
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>View this resource as a PDF file</String>
+                                                <String>Download the full Metadata Guidance document as a PDF</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <null/>
@@ -8924,7 +8944,7 @@ ${caret}</String>
                                                 <null/>
                                             </field>
                                             <field name="value">
-                                                <String>chapter</String>
+                                                <String>all</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <String>chapter</String>

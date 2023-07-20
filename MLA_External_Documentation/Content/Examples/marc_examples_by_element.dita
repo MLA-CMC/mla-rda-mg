@@ -387,7 +387,7 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">505</entry>
                         <entry colname="ind" outputclass="marcInd">00</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$g</ph> Youth = Das Mädchen. <ph outputclass="sf">$t</ph> Nichts <ph outputclass="sf">$g</ph> (1:40) ; <ph outputclass="sf">$t</ph> Leisis Lied <ph outputclass="sf">$g</ph> (3:13) ; <ph outputclass="sf">$t</ph> Ständchen <ph outputclass="sf">$g</ph> (2:42) ; <ph outputclass="sf">$t</ph> Schlagende Herzen <ph outputclass="sf">$g</ph> (2:29) ; <ph outputclass="sf">$t</ph> Heimliche Aufforderung <ph outputclass="sf">$g</ph> (3:16) -- <ph outputclass="sf">$g</ph> Longing = Sehnsucht. <ph outputclass="sf">$t</ph> Sehnsucht <ph outputclass="sf">$g</ph> (4:27) [etc....]</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$g</ph> Youth = Das Mädchen. <ph outputclass="sf">$t</ph> Nichts <ph outputclass="sf">$g</ph> (1:40) ; <ph outputclass="sf">$t</ph> Leisis Lied <ph outputclass="sf">$g</ph> (3:13) ; <ph outputclass="sf">$t</ph> Ständchen <ph outputclass="sf">$g</ph> (2:42) ; <ph outputclass="sf">$t</ph> Schlagende Herzen <ph outputclass="sf">$g</ph> (2:29) ; <ph outputclass="sf">$t</ph> Heimliche Aufforderung <ph outputclass="sf">$g</ph> (3:16) -- <ph outputclass="sf">$t</ph> Longing = Sehnsucht. <ph outputclass="sf">$t</ph> Sehnsucht <ph outputclass="sf">$g</ph> (4:27) [etc....]</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">700</entry>

@@ -1236,7 +1236,7 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">041</entry>
                         <entry colname="ind" outputclass="marcInd">0_</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph> arm <ph outputclass="sf">$d</ph> cau <ph outputclass="sf">$d</ph> geo <ph outputclass="sf">$d</ph> tur <ph outputclass="sf">$e</ph> arm <ph outputclass="sf">$e</ph> cau <ph outputclass="sf">$e</ph> geo <ph outputclass="sf">$e</ph> tur <ph outputclass="sf">$g</ph> cau <ph outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> geo <ph outputclass="sf">$g</ph> ger</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph> arm <ph outputclass="sf">$d</ph> cau <ph outputclass="sf">$d</ph> geo <ph outputclass="sf">$d</ph> tur <ph outputclass="sf">$e</ph> arm <ph outputclass="sf">$e</ph> cau <ph outputclass="sf">$e</ph> geo <ph outputclass="sf">$e</ph> tur <ph outputclass="sf">$g</ph> cau <ph outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> geo <ph outputclass="sf">$g</ph> ger <ph outputclass="sf">$g</ph> tur</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
@@ -1260,7 +1260,7 @@
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">041</entry>
                         <entry colname="ind" outputclass="marcInd">0_</entry>
-                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph> frm <ph outputclass="sf">$d</ph> ita <ph outputclass="sf">$d</ph> lat <ph outputclass="sf">$e</ph> dut <ph outputclass="sf">$e</ph> eng <ph outputclass="sf">$e</ph> fre <ph outputclass="sf">$e</ph> frm <ph outputclass="sf">$e</ph> lat <ph outputclass="sf">$e</ph> ita <ph outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> ita <ph outputclass="sf">$n</ph> lat <ph outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> fre <ph outputclass="sf">$g</ph> ger <ph outputclass="sf">$g</ph> ita</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$d</ph> frm <ph outputclass="sf">$d</ph> ita <ph outputclass="sf">$d</ph> lat <ph outputclass="sf">$e</ph> dut <ph outputclass="sf">$e</ph> eng <ph outputclass="sf">$e</ph> fre <ph outputclass="sf">$e</ph> frm <ph outputclass="sf">$e</ph> lat <ph outputclass="sf">$e</ph> ita <ph outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> frm <ph outputclass="sf">$n</ph> lat <ph outputclass="sf">$g</ph> dut <ph outputclass="sf">$g</ph> eng <ph outputclass="sf">$g</ph> fre <ph outputclass="sf">$g</ph> ger</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">546</entry>
@@ -1455,8 +1455,7 @@
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a</ph> 1 audio disc ; <ph outputclass="sf">$c</ph> 4 3/4 in.</entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a book or score issued with an audio or
-                        video carrier.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">Resource is a book or score issued with an audio or video carrier.</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1516,7 +1515,7 @@
                         <entry colname="marcText"><ph outputclass="sf">$3</ph> Audio disc <ph outputclass="sf">$b</ph> CD audio </entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="marcText" outputclass="marcComment">Resource consists of a disc with booklet inserted in container.</entry>
+                        <entry namest="field" nameend="marcText" outputclass="marcComment">Resource consists of a disc with booklet inserted in container. Generally apply the first option unless the accompanying volume is substantial in content or extent.</entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -1683,7 +1682,8 @@
          <div outputclass="rdaPageSubgroup">
             <p outputclass="subheading">Recording relationship elements</p>
             <p outputclass="oldNumber">18.5.1.3</p>
-            <p outputclass="oldName">Recording relationship designators<note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_csm_jcr_yxb"/></p>
+            <p outputclass="oldName">Recording relationship designators<note
+                  conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_csm_jcr_yxb"/></p>
             <table frame="none" outputclass="bpExample" id="table_b5t_xkf_vrb">
                <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
                   <colspec colname="field" colnum="1" colwidth="2*"/>
@@ -1866,28 +1866,6 @@
                         <entry colname="field" outputclass="marcTag">700</entry>
                         <entry colname="ind" outputclass="marcInd">1_</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$i</ph> Based on: <ph outputclass="sf">$a</ph> Couperin, François, <ph outputclass="sf">$d</ph> 1668-1733. <ph outputclass="sf">$t</ph> Pièces de clavecin, <ph outputclass="sf">$n</ph> 2e livre. <ph outputclass="sf">$n</ph> No 6, <ph outputclass="sf">$p</ph> Baricades mystérieuses.</entry>
-                     </row>
-                  </tbody>
-               </tgroup>
-            </table>
-         </div>
-      </section>
-      <section id="section_l5t_xkf_vrb">
-         <title outputclass="rdaPage">Manifestation: equipment or system requirement</title>
-         <div outputclass="rdaPageSubgroup">
-            <p outputclass="oldNumber">3.20</p>
-            <table frame="none" outputclass="bpExample" id="table_m5t_xkf_vrb">
-               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
-                  <colspec colname="field" colnum="1" colwidth="2*"/>
-                  <colspec colname="ind" colnum="2" colwidth="3*"/>
-                  <colspec colname="data" colnum="3" colwidth="25*"/>
-                  <tbody>
-                     <row valign="top" outputclass="marcContent">
-                        <entry colname="field" outputclass="marcTag">538</entry>
-                        <entry colname="ind" outputclass="marcInd">##</entry>
-                        <entry colname="data" outputclass="marcText">
-                           <ph outputclass="sf">$a</ph> Hybrid Super Audio CD (SACD): CD standard stereo playable on regular CD player; requires SACD player and playback equipment with analog inputs for DSD (Direct Stream Digital) stereo or 4.0 multichannel surround sound to audition SACD-encoded layers<ph outputclass="isbd-full">.</ph>
-                        </entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -2764,7 +2742,36 @@
                         </entry>
                      </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Designation of named revision describes the designation of edition both describe changes in content.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">Designation
+                           of edition (indicating a particular version of content) and designation
+                           of named revision (indicating changes to that version) both describe the
+                           same aspect of the edition.</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </table>
+         </div>
+      </section>
+      <section id="section_l5t_xkf_vrb">
+         <title outputclass="rdaPage">Manifestation: equipment or system requirement</title>
+         <div outputclass="rdaPageSubgroup">
+            <p outputclass="oldNumber">3.20</p>
+            <table frame="none" outputclass="bpExample" id="table_m5t_xkf_vrb">
+               <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
+                  <colspec colname="field" colnum="1" colwidth="2*"/>
+                  <colspec colname="ind" colnum="2" colwidth="3*"/>
+                  <colspec colname="data" colnum="3" colwidth="25*"/>
+                  <tbody>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">538</entry>
+                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="data" outputclass="marcText">
+                           <ph outputclass="sf">$a</ph> Hybrid Super Audio CD (SACD): CD standard
+                           stereo playable on regular CD player; requires SACD player and playback
+                           equipment with analog inputs for DSD (Direct Stream Digital) stereo or
+                           4.0 multichannel surround sound to audition SACD-encoded layers<ph
+                              outputclass="isbd-full">.</ph>
+                        </entry>
                      </row>
                   </tbody>
                </tgroup>
@@ -3778,8 +3785,16 @@
                            <ph outputclass="sf">$b</ph> Opus111 <ph outputclass="isbd-full">:</ph>
                            <ph outputclass="sf">$b</ph> Naïve </entry>
                      </row>
+                     <row valign="top" outputclass="exampleConjunction">
+                        <entry namest="field" nameend="data" outputclass="marcComment">Or</entry>
+                     </row>
+                     <row valign="top" outputclass="marcContent">
+                        <entry colname="field" outputclass="marcTag">264</entry>
+                        <entry colname="ind" outputclass="marcInd">_1</entry>
+                        <entry colname="data" outputclass="marcText"><ph outputclass="sf">$a </ph>Paris : <ph outputclass="sf">$b </ph>Opus111/Naïve</entry>
+                     </row>
                      <row valign="top" outputclass="exampleCaption">
-                        <entry namest="field" nameend="data" outputclass="marcComment">Unclear whether two names in the same source represent a publishing company and the name of a subdivision of that company or a trade name or brand name used by that company, or whether they represent two unrelated publishers; both names transcribed as publishers.</entry>
+                        <entry namest="field" nameend="data" outputclass="marcComment">On resource: Opus111/Naïve. Unclear whether two names in the same source represent a publishing company and the name of a subdivision of that company or a trade name or brand name used by that company, or two unrelated publishers. Treat as a single entity or transcribe both names as publishers.</entry>
                      </row>
                   </tbody>
                </tgroup>

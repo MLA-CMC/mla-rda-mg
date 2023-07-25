@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="web_colophon">
+<topic id="web_colophon" outputclass="webonly">
     <title>Version and Citation Information</title>
     <body>
         <section id="section_dth_gfr_wwb">

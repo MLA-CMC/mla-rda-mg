@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="frontmatter_notices" path="Content/frontmatter_notices.html"/>
    <appContext helpID="intro" path="Content/Intro/intro.html"/>
    <appContext helpID="intro_interpreting_bps"
                path="Content/Intro/intro_interpreting_bps.html"/>
@@ -9,15 +8,16 @@
    <appContext helpID="lrm_and_rda_concepts"
                path="Content/LRM/lrm_and_rda_concepts.html"/>
    <appContext helpID="representative_expressions"
-               path="Content/LRM/representative_expressions.html"/>
-   <appContext helpID="representative_expressions"
-               path="Content/LRM/representative_expression_treatment.html"/>
+               path="Content/LRM/representative_expressions.html#representative_expressions"/>
+   <appContext helpID="unique_1060369161"
+               path="Content/LRM/representative_expressions.html#unique_1060369161"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates.html"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates_aaps.html"/>
-   <appContext helpID="musical_we" path="Content/WE/musical_we.html"/>
+   <appContext helpID="musical_we" path="Content/WE/musical_we.html#musical_we"/>
    <appContext helpID="aap_work_expression"
-               path="Content/WE/musical_we_preferred_titles.html"/>
-   <appContext helpID="aap_work_expression" path="Content/WE/musical_we_aaps.html"/>
+               path="Content/WE/musical_we.html#aap_work_expression"/>
+   <appContext helpID="unique_346527043"
+               path="Content/WE/musical_we.html#unique_346527043"/>
    <appContext helpID="bib_description"
                path="Content/Description/bib_description.html"/>
    <appContext helpID="element_overview_marc_bibliographic"

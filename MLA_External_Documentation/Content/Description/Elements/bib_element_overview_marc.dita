@@ -5,16 +5,15 @@
     <shortdesc/>
     <body>
         <p>Elements in bold are designated "Core" in LC-PCC PS or "routinely record" in the MLA Best Practices.</p>
-        <draft-comment author="kek67197">Use &lt;li> attribute outputclass="core" for elements designated mandatory or mandatory if applicable by LC-PCC PS or MLA BP.</draft-comment>
         <section id="section_nrq_f3d_5rb">
             <title>Identifiers (MARC: 02x)</title>
             <ul id="ul_tc4_gjd_5rb">
-                <li outputclass="core">Manifestation: identifier for manifestation<ul id="ul_jhz_mrd_5rb">
-                        <li outputclass="core">Manifestation: publisher number for notated music</li>
-                        <li outputclass="core">Manifestation: plate number for notated music</li>
+                <li><b>Manifestation: identifier for manifestation</b><ul id="ul_jhz_mrd_5rb">
+                        <li><b>Manifestation: publisher number for notated music</b></li>
+                        <li><b>Manifestation: plate number for notated music</b></li>
                     </ul></li>
                 <li>Manifestation: identifier for expression</li>
-                <li outputclass="core">Work: ISSN</li>
+                <li outputclass="core"><b>Work: ISSN</b></li>
             </ul>
             <table frame="all" rowsep="0" colsep="0" id="table_i4t_nrd_5rb">
                 <title>Identifier Summary</title>
@@ -117,7 +116,7 @@
         <section id="section_ttw_ky3_5rb">
             <title>Principal agent or MARC uniform title (MARC: 1xx)</title>
             <ul id="ul_hyd_sy3_5rb">
-                <li outputclass="core">Work: creator agent of work (or narrower element)</li>
+                <li outputclass="core"><b>Work: creator agent of work (or narrower element)</b></li>
                 <li>Work: authorized access point for work (mixed or no responsibility)</li>
                 <li>Expression: authorized access point for expression (mixed or no responsibility)</li>
             </ul>
@@ -157,18 +156,24 @@
         <section id="section_xv3_ty3_5rb">
             <title>Title information and associated statements of responsibility (MARC: 245)</title>
             <ul id="ul_at5_vy3_5rb">
-                <li>Manifestation: title of manifestation<note conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vmx_mz3_5rb"/><ul id="ul_uzh_wy3_5rb">
-                        <li outputclass="core">Manifestation: title proper<ul id="ul_qvz_gzh_wrb">
-                                <li outputclass="core">Manifestation: parallel title proper</li>
+                <li>Manifestation: title of manifestation<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vmx_mz3_5rb"/><ul
+                        id="ul_uzh_wy3_5rb">
+                        <li><b>Manifestation: title proper</b><ul id="ul_qvz_gzh_wrb">
+                                <li><b>Manifestation: parallel title proper</b></li>
                             </ul></li>
                         <li>Manifestation: variant title of manifestation</li>
                     </ul></li>
-                <li outputclass="core">Manifestation: other title information<ul id="ul_fjd_zy3_5rb">
+                <li><b>Manifestation: other title information</b><ul id="ul_fjd_zy3_5rb">
                         <li>Manifestation: parallel other title information</li>
                     </ul></li>
-                <li>Manifestation: statement of responsibility<note conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_ifj_nz3_5rb"/><ul id="ul_nkz_1z3_5rb">
-                        <li outputclass="core">Manifestation: statement of responsibility relating to title proper</li>
-                        <li outputclass="core">Manifestation: parallel statement of responsibility relating to title proper</li>
+                <li>Manifestation: statement of responsibility<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_ifj_nz3_5rb"/><ul
+                        id="ul_nkz_1z3_5rb">
+                        <li><b>Manifestation: statement of responsibility relating to title
+                                proper</b></li>
+                        <li><b>Manifestation: parallel statement of responsibility relating to title
+                                proper</b></li>
                     </ul></li>
             </ul>
             <table frame="all" rowsep="0" colsep="0" id="table_at4_m2j_5rb">
@@ -235,7 +240,8 @@
                 </tgroup>
             </table>
             <note id="note_z5r_v2j_5rb">In certain cases involving compilations lacking a collective title, titles proper subsequent to the first must be recorded in $c because no further subfielding is permitted once $c has been recorded. In such cases, also record titles proper subsequent to the first (and any desired variants) in separate instances of field 740, second indicator value 2, to insure proper indexing.</note>
-            <p>For detailed guidance and examples of complex parallel data, consult <ph conkeyref="b_bp_mla/p_r2t_4hh_r4b"/>
+            <p>For detailed guidance and examples of complex parallel data, consult <ph
+                    conkeyref="b_bp_mla/p_r2t_4hh_r4b"/>
                 <ph conkeyref="b_bp_mla/ph_svd_ytt_t4b"/>.</p>
             <p>Record variant titles in field 246 using indicator values 13, 1_ with an explanatory note in $i, or other values according to local practice, as appropriate.</p>
         </section>
@@ -243,18 +249,26 @@
             <title>Edition (MARC: 250)</title>
 
         <ul id="ul_qhw_knj_5rb">
-            <li><ph outputclass="core">Manifestation: edition statement</ph><note conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_sh2_ygn_vrb"/><ul id="ul_twq_lnj_5rb">
-                        <li><ph outputclass="core">Manifestation: designation of edition</ph><ul id="ul_lvj_xgn_vrb">
+            <li><b>Manifestation: edition statement</b><note
+                        conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_sh2_ygn_vrb"/><ul
+                        id="ul_twq_lnj_5rb">
+                        <li><b>Manifestation: designation of edition</b><ul id="ul_lvj_xgn_vrb">
                                 <li>Manifestation: parallel designation of edition</li>
                             </ul></li>
-                        <li><ph outputclass="core">Manifestation: designation of named revision of edition</ph><ul id="ul_fyw_wgn_vrb">
-                                <li>Manifestation: parallel designation of named revision of edition</li>
+                        <li><b>Manifestation: designation of named revision of edition</b><ul
+                                id="ul_fyw_wgn_vrb">
+                                <li>Manifestation: parallel designation of named revision of
+                                    edition</li>
                             </ul></li>
-                        <li><ph outputclass="core">Manifestation: statement of responsibility relating to edition</ph><ul id="ul_xs3_wgn_vrb">
-                                <li>Manifestation: parallel statement of responsibility relating to edition</li>
+                        <li><b>Manifestation: statement of responsibility relating to edition</b><ul
+                                id="ul_xs3_wgn_vrb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    edition</li>
                             </ul></li>
-                        <li>Manifestation: statement of responsibility relating to named revision of edition<ul id="ul_lfk_vgn_vrb">
-                                <li>Manifestation: parallel statement of responsibility relating to named revision of edition</li>
+                        <li>Manifestation: statement of responsibility relating to named revision of
+                                edition<ul id="ul_lfk_vgn_vrb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    named revision of edition</li>
                             </ul></li>
                     </ul></li>
         </ul>
@@ -320,8 +334,8 @@
         <section id="section_anw_5gj_5rb">
             <title>Physical description (MARC: 300)</title>
             <ul id="ul_cfd_s5j_5rb">
-                <li outputclass="core">Manifestation: extent of manifestation</li>
-                <li outputclass="core">Manifestation: dimensions</li>
+                <li><b>Manifestation: extent of manifestation</b></li>
+                <li><b>Manifestation: dimensions</b></li>
             </ul>
             <table frame="all" rowsep="1" colsep="0" id="table_hfg_p13_wrb">
                 <title>Physical Description Summary</title>
@@ -360,34 +374,37 @@
             <ul id="ul_gjn_qfn_vrb">
                 <li>Manifestation: applied material</li>
                 <li>Manifestation: base material</li>
-                <li outputclass="core">Manifestation: carrier type</li>
-                <li>Manifestation: digital file characteristic<note conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vld_lgn_vrb"/><ul id="ul_nql_ggn_vrb">
+                <li><b>Manifestation: carrier type</b></li>
+                <li>Manifestation: digital file characteristic<note
+                        conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_vld_lgn_vrb"/><ul
+                        id="ul_nql_ggn_vrb">
                         <li>Manifestation: encoding format</li>
-                        <li outputclass="core">Manifestation: file type</li>
+                        <li><b>Manifestation: file type</b></li>
                         <li>Manifestation: regional encoding</li>
                     </ul></li>
                 <li>Manifestation: generation</li>
                 <li>Manifestation: illustrative content</li>
-                <li outputclass="core">Manifestation: media type</li>
+                <li><b>Manifestation: media type</b></li>
                 <li>Manifestation: production method</li>
                 <li>Manifestation: sound characteristic<p>
                         <note conkeyref="bped_boilerplate/note_b2z_jfd_5rb" id="note_kfc_dgn_vrb"/>
                     </p><ul id="ul_udz_yfn_vrb">
-                        <li outputclass="core">Manifestation: configuration of playback channels</li>
+                        <li><b>Manifestation: configuration of playback channels</b></li>
                         <li>Manifestation: groove characteristic<ul id="ul_v5v_zfn_vrb">
                                 <li>Manifestation: groove pitch</li>
                                 <li>Manifestation: groove width</li>
                             </ul></li>
-                        <li outputclass="core">Manifestation: playing speed</li>
+                        <li><b>Manifestation: playing speed</b></li>
                         <li>Manifestation: recording medium</li>
-                        <li outputclass="core">Manifestation: special playback characteristic</li>
-                        <li outputclass="core">Manifestation: track configuration</li>
-                        <li outputclass="core">Manifestation: tape configuration</li>
-                        <li outputclass="core">Manifestation: type of recording</li>
+                        <li><b>Manifestation: special playback characteristic</b></li>
+                        <li><b>Manifestation: track configuration</b></li>
+                        <li><b>Manifestation: tape configuration</b></li>
+                        <li><b>Manifestation: type of recording</b></li>
                     </ul></li>
+                <li><b>Expression: content type</b></li>
                 <li>Expression: duration</li>
-                <li>Expression: form of musical notation</li>
-                <li>Expression: format of notated music</li>
+                <li><b>Expression: form of musical notation</b></li>
+                <li><b>Expression: format of notated music</b></li>
             </ul>
             <table frame="all" rowsep="1" colsep="0" id="table_tvw_bwh_wrb">
                 <title>Other Manifestation and Expression Characteristics Summary</title>
@@ -417,6 +434,11 @@
                         <row>
                             <entry namest="newCol1" nameend="c1">carrier type</entry>
                             <entry>338</entry>
+                            <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1">content type</entry>
+                            <entry>336</entry>
                             <entry>$a</entry>
                         </row>
                         <row>
@@ -585,17 +607,23 @@
         <section id="section_u2h_xgj_5rb">
             <title>Series statement (MARC: 490) and tracing (MARC: 8xx)</title>
             <ul id="ul_q3n_pjj_5rb">
-                <li outputclass="core">Manifestation: series statement<note conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_iqc_rjj_5rb"/><ul id="ul_d5m_qjj_5rb">
-                        <li outputclass="core">Manifestation: title of series<ul id="ul_qtn_y4j_5rb">
-                                <li outputclass="core">Manifestation: parallel title of series</li>
+                <li><b>Manifestation: series statement</b><note
+                        conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_iqc_rjj_5rb"/><ul
+                        id="ul_d5m_qjj_5rb">
+                        <li><b>Manifestation: title of series</b><ul id="ul_qtn_y4j_5rb">
+                                <li><b>Manifestation: parallel title of series</b></li>
                             </ul></li>
                         <li>Manifestation: other title information of series<ul id="ul_bfc_1pj_5rb">
                                 <li>Manifestation: parallel other title information of series</li>
                             </ul></li>
-                        <li>Manifestation: statement of responsibility relating to series<note id="note_wfn_gkj_5rb">Routinely record the element if the series represents the complete or selected works of a single composer.</note><ul id="ul_n53_bpj_5rb">
-                                <li>Manifestation: parallel statement of responsibility relating to series</li>
+                        <li>Manifestation: statement of responsibility relating to series<note
+                                id="note_wfn_gkj_5rb">Routinely record the element if the series
+                                represents the complete or selected works of a single
+                                composer.</note><ul id="ul_n53_bpj_5rb">
+                                <li>Manifestation: parallel statement of responsibility relating to
+                                    series</li>
                             </ul></li>
-                        <li outputclass="core">Manifestation: numbering within sequence</li>
+                        <li><b>Manifestation: numbering within sequence</b></li>
                     </ul></li>
                 <li>Work: subseries</li>
                 <li>Work: authorized access point for work</li>
@@ -737,27 +765,29 @@
         </section>
         <ul id="ul_myq_k5j_5rb">
             <li>Manifestation: note on manifestation<ul id="ul_hsc_l5j_5rb">
-                    <li outputclass="core">Manifestation: note on title</li>
-                    <li outputclass="core">Manifestation: note on statement of responsibility</li>
+                    <li><b>Manifestation: note on title</b></li>
+                    <li><b>Manifestation: note on statement of responsibility</b></li>
                 </ul><note id="note_qdx_l1k_5rb">All narrower elements of Manifestation: note on manifestation have been soft-deprecated by the RDA Steering Committee. Although there are no immediate plans to remove those elements, in the future instructions specific to those narrower elements may be subsumed into Manifestation: note on manifestation or migrated to policy statements.</note></li>
             <li>Manifestation: equipment or system requirement</li>
-            <li outputclass="core">Manifestation: expression manifested</li>
+            <li><b>Manifestation: expression manifested</b></li>
             <li>Manifestation: manifestation described in</li>
             <li>Expression: capture information<ul id="ul_jtj_qlk_5rb">
                     <li>Expression: note on capture</li>
                 </ul></li>
-            <li outputclass="core">Expression: date of capture</li>
+            <li><b>Expression: date of capture</b></li>
             <li>Expression: expression described in</li>
             <li>Expression: form of notation<ul id="ul_m5c_c3k_5rb">
                     <li>Expression: script</li>
                 </ul><note id="note_ntx_bkk_5rb">LC-PCC core for certain language/script combinations. For form of musical notation, see <xref href="#element_overview_marc_bibliographic/section_acc_jhj_5rb" format="dita"/>.</note></li>
             <li>Expression: intended audience of expression<note id="note_sly_yck_5rb">LC-PCC core for juvenile resources.</note></li>
             <li>Expression: language of expression</li>
-            <li outputclass="core">Expression: place of capture</li>
-            <li outputclass="core">Work: dissertation or thesis information<note conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_wdb_mlk_5rb"/><ul id="ul_fx5_w3k_5rb">
-                    <li outputclass="core">Work: academic degree</li>
-                    <li outputclass="core">Work: degree granting institution</li>
-                    <li outputclass="core">Work: year degree granted</li>
+            <li><b>Expression: place of capture</b></li>
+            <li><b>Work: dissertation or thesis information</b><note
+                    conkeyref="bped_boilerplate/note_jlg_z2d_5rb" id="note_wdb_mlk_5rb"/><ul
+                    id="ul_fx5_w3k_5rb">
+                    <li><b>Work: academic degree</b></li>
+                    <li><b>Work: degree granting institution</b></li>
+                    <li><b>Work: year degree granted</b></li>
                 </ul></li>
             <li>Work: work described in</li>
         </ul>
@@ -814,7 +844,8 @@
                         <entry>dissertation or thesis information</entry>
                         <entry>502</entry>
                         <entry>$a</entry>
-                        <entry>Full text of a thesis or dissertation statement. <ph conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
+                        <entry>Full text of a thesis or dissertation statement. <ph
+                                conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
                     </row>
                     <row>
                         <entry>academic degree</entry>
@@ -861,7 +892,8 @@
                         <entry>capture information</entry>
                         <entry>518</entry>
                         <entry>$a</entry>
-                        <entry>Notes on place and/or date of recording for one or more expressions. <ph conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
+                        <entry>Notes on place and/or date of recording for one or more expressions.
+                                <ph conkeyref="bped_boilerplate/ph_mrk_hmk_5rb"/></entry>
                     </row>
                     <row>
                         <entry>date of capture</entry>
@@ -906,10 +938,14 @@
         <section id="section_iwx_hhj_5rb">
             <title>Relationship information (MARC: 7xx)</title>
             <ul id="ul_qnt_1vk_nsb">
-                <li outputclass="core">Agent: creator agent of expression (and narrower elements)<ul id="ul_aq5_yvk_nsb">
-                        <li>Collective Agent: creator collective agent of expression (and narrower elements)<ul id="ul_lhn_bwk_nsb">
-                                <li>Corporate Body: creator corporate body of expression (and narrower elements)</li>
-                                <li>Family: creator family of expression (and narrower elements)</li>
+                <li><b>Agent: creator agent of expression (and narrower elements)</b><ul
+                        id="ul_aq5_yvk_nsb">
+                        <li>Collective Agent: creator collective agent of expression (and narrower
+                                elements)<ul id="ul_lhn_bwk_nsb">
+                                <li>Corporate Body: creator corporate body of expression (and
+                                    narrower elements)</li>
+                                <li>Family: creator family of expression (and narrower
+                                    elements)</li>
                             </ul></li>
                         <li>Person: creator person of expression (and narrower elements)</li>
                     </ul></li>

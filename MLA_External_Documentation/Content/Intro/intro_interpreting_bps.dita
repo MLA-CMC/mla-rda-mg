@@ -63,8 +63,18 @@
                     <dd>
                         <p>Recording methods and options so marked may be omitted unless needed by a cataloger's institution, e.g. to support identification, selection, or access in local discovery systems.</p>
                         <p>In many cases this applies to elements where the current recommendation is to record data using a structured description, identifier, or IRI in order to support cleaner metadata, easier retrieval and data manipulation, or linked data applications, but earlier practice has generally relied on unstructured description. In MARC, this often applies to data that has been recorded in a general or specialized note field where it can only be easily recognized and used by a human interpreter. It may also apply to situations where generally applied standards for encoding the same type of information have changed over time (for example, MARC field 048 vs field 382 for medium of performance).</p>
-                        <p>The Content Standards Subcommittee recognizes that libraries operate with a wide variety of ILSes, discovery layers, technical support resources, etc. and may require that data be recorded according to earlier practice to ensure it is accessible to their users. In a shared cataloging environment, data should be recorded according to current recommendations; catalogers should feel no obligation to also record the same data according to earlier practice if doing so would be redundant. However, catalogers should feel free to supplement a description with information recorded according to earlier practice if they have a need to do so. Catalogers should generally not remove such information (providing it is correct)
-                            from records in a shared environment, even if it may technically be redundant in their own discovery systems.</p>
+                        <p>The Content Standards Subcommittee recognizes that libraries operate with
+                            a wide variety of ILS platforms, discovery layers, technical support
+                            resources, etc. and may require that data be recorded according to
+                            earlier practice to ensure it is accessible to their users. In a shared
+                            cataloging environment, data should be recorded according to current
+                            recommendations; catalogers should feel no obligation to also record the
+                            same data according to earlier practice if doing so would be redundant.
+                            However, catalogers should feel free to supplement a description with
+                            information recorded according to earlier practice if they have a need
+                            to do so. Catalogers should generally not remove such information
+                            (providing it is correct) from records in a shared environment, even if
+                            it may technically be redundant in their own discovery systems.</p>
                     </dd>
                 </dlentry>
                 <dlentry>

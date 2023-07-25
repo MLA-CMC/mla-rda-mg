@@ -196,17 +196,6 @@
         padding:0;
         }
 
-/* Styling for elements marked "core" in the bibliographic overview */
-    .core:before{ }
-    .core {
-        font-weight:bold;
-        }
-    div.note {
-        font-weight:normal;
-        }
-/* *************************** */
-
-
 /* Styling for MARC examples */
     .pageGroup { }
     

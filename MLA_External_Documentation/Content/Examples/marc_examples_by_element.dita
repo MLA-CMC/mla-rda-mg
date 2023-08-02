@@ -1682,8 +1682,7 @@
          <div outputclass="rdaPageSubgroup">
             <p outputclass="subheading">Recording relationship elements</p>
             <p outputclass="oldNumber">18.5.1.3</p>
-            <p outputclass="oldName">Recording relationship designators<note
-                  conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_csm_jcr_yxb"/></p>
+            <p outputclass="oldName">Recording relationship designators<note conkeyref="bped_boilerplate/note_nmt_zfk_nsb" id="note_csm_jcr_yxb"/></p>
             <table frame="none" outputclass="bpExample" id="table_b5t_xkf_vrb">
                <tgroup cols="3" outputclass="marcBlock" colsep="0" rowsep="0">
                   <colspec colname="field" colnum="1" colwidth="2*"/>
@@ -6219,7 +6218,7 @@
                      </row>
                      <row valign="top" outputclass="marcContent">
                         <entry colname="field" outputclass="marcTag">046</entry>
-                        <entry colname="ind" outputclass="marcInd">##</entry>
+                        <entry colname="ind" outputclass="marcInd">1#</entry>
                         <entry colname="data" outputclass="marcText"><ph outputclass="sf">$k </ph>1947 <ph outputclass="sf">$2 </ph>edtf</entry>
                      </row>
                      <row valign="top" outputclass="marcContent">

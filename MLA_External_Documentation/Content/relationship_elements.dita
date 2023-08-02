@@ -4,6 +4,20 @@
     <title>Relationship Elements</title>
     <body>
         <p>TBD</p>
+        <section id="section_kcy_yxd_gyb">
+            <title>Parsing relationship element names</title>
+            <p>Relationship element names contain up to three pieces of information, usually in this order:</p><ol id="ol_jq1_bzd_gyb">
+                    <li>The type of relationship being expressed. This will always be present.</li>
+                    <li>The type of entity that is the target of the relationship. This may be absent if there is only one possibility.</li>
+                    <li>The type of entity being described. This may be absent if there is only one possibility.</li>
+                </ol>
+            <p>Additionally, while it is not technically part of the element name, the convention in RDA is to prefix element names with their domain (that is, the entity type they describe), which is also the entity they are filed under in the RDA Toolkit. </p>
+            <p><b>Examples:</b></p>
+            <p>The element Work: ISSN contains only the first piece of information, the relationship type. It can only relate a Nomen (in this case, the string of characters assigned by the ISSN International Centre) to a Work (a serial).</p>
+            <p>The element Work: author person contains two pieces of information. The "author" relationship can only relate a Work entity to some type of Agent, so "work" can be omitted, but the type of agent (Person) is specified because any kind of Agent could be valid.</p>
+            <p>The element Item: dedicatee person of item contains all three pieces of information, because the "dedicatee" relationship is ambiguous in both directions: any type of Agent could have something dedicated to them, and the thing being dedicated could be a Work or a unique Item.</p>
+            <note id="note_z2d_t32_gyb">Work: composer agent of work, its narrower elements, and their inverses are atypical in that "...of work" is redundant: the "composer" relationship can only relate a Work and some type of Agent. However, original RDA had the relationship designator <term>composer (expression)</term>.</note>
+        </section>
         <section id="section_p5l_vpy_wxb">
             <title>Relationship Labels</title>
             <p>Agent-to-WEMI Relationships</p>
@@ -18,10 +32,8 @@
                     </ul></li>
             </ul>
             <p>Of these, "person" and "corporate body" are most likely to be used for routine cataloging of music materials. </p>
-            <p>Because the names of relationship elements specify a) the type of relationship being expressed and b) the entities on either end of the relationship, they can easily become verbose and sometimes difficult to parse, making them unsuitable for display to the public. As a result, LC-PCC has created a set of relationship labels </p>
-            <p>Subject </p>
-            <p>
-                <table frame="none" rowsep="0" colsep="0" id="table_rmd_nd4_cyb">
+            <p>Because the names of relationship elements specify a) the type of relationship being expressed and b) the entities on either end of the relationship, they can easily become verbose and sometimes difficult to parse, making them unsuitable for display to the public. As a result, LC-PCC has created a set of relationship labels. </p>
+            <p>Relationships can be expressed as a sentence with a <b>subject</b> (the entity being described), a <b>predicate</b> (a relationship element indicating the subject <i>has</i> some type or relationship with or <i>is</i> something relative to another entity), and an <b>object</b> (the entity that is the target of the relationship).</p><table frame="none" rowsep="0" colsep="0" id="table_rmd_nd4_cyb">
                     <title>Relationships as sentences</title>
                     <tgroup cols="3" align="left">
                         <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -36,19 +48,9 @@
                         </thead>
                         <tbody>
                             <row>
-                                <entry>Work</entry>
-                                <entry><i>has</i> composer person of work</entry>
-                                <entry>Person</entry>
-                            </row>
-                            <row>
                                 <entry>Die Zauberflöte</entry>
                                 <entry><i>has</i> composer person of work</entry>
                                 <entry>Mozart</entry>
-                            </row>
-                            <row>
-                                <entry>Person</entry>
-                                <entry><i>is</i> composer person of work of</entry>
-                                <entry>Work</entry>
                             </row>
                             <row>
                                 <entry>Mozart</entry>
@@ -58,11 +60,9 @@
                         </tbody>
                     </tgroup>
                 </table>
-            </p>
             <p>The LRM model, like FRBR before it, requires every relationship have an inverse, which is logical: if you can relate a work to its composer(s), it makes sense that you can also relate a composer to their work(s). A small number of relationship elements are perfectly symmetrical and thus are their own inverses. For example, the inverse relationship of "related manifestation of manifestation" is "related manifestation of manifestation"; it is the same type of entity (a manifestation) on both sides of the relationship, and the relationship (an unspecified "related to") is the same in both directions.</p>
             <p>In practice, however, for most relationships we are more likely to care about one direction of relationship than the other in most contexts. In everyday cataloging we are more likely to catalog a book and need to identify its author than we are to catalog an author and need to identify their works. </p>
             <p/>
-            <p><b>Wolfgang Amadeus Mozart</b> is <b>[composer person of work]</b> of <b>Die Zauberflöte</b>.</p>
             <table frame="none" rowsep="0" colsep="0" id="table_km5_yrz_wxb">
                 <title>Agent to work relationships</title>
                 <tgroup cols="4" align="left">

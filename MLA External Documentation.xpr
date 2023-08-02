@@ -7026,87 +7026,7 @@ ${caret}</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Templates/PDF_publish/PDF_publish.opt</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - PDF</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/Description/Formats/formats_sound_recordings.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Templates/webhelp_publish/webhelp_publish.opt</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/web_colophon.dita</String>
+                                    <String>MLA_External_Documentation/Content/Description/Elements/bib_element_overview_marc.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7146,11 +7066,11 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/Content/Description/Formats/formats_sound_recordings_labels.dita</String>
+                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>RDA Metadata Guidance - PDF</String>
+                                        <String>RDA Metadata Guidance - Web</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7166,11 +7086,31 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/Templates/PDF_publish/css/custom-styles.css</String>
+                                    <String>MLA_External_Documentation/Content/Description/bib_description.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>RDA Metadata Guidance - PDF</String>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/web_colophon.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7206,6 +7146,126 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>MLA_External_Documentation/Templates/webhelp_publish/webhelp_publish.opt</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Description/Formats/formats_sound_recordings_labels.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Description/Formats/formats_sound_recordings.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Templates/PDF_publish/PDF_publish.opt</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/main.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Templates/PDF_publish/css/custom-styles.css</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>MLA_External_Documentation/Content/Intro/intro_mla_application_profile.dita</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -7226,47 +7286,7 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>MLA_External_Documentation/Content/WE/musical_we_aaps.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/Description/bib_description.dita</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -8502,6 +8522,333 @@ ${caret}</String>
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
+                                    <String>${cfd}/out/topic-pdf-css-html5</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${cfd}/temp/topic-pdf-css-html5</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf-css-html5-single-topic</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <null/>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list>
+                                                <ditavalSimpleFilter>
+                                                    <field name="attrName">
+                                                        <String>audience</String>
+                                                    </field>
+                                                    <field name="attrValue">
+                                                        <String>webonly</String>
+                                                    </field>
+                                                </ditavalSimpleFilter>
+                                            </list>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="publishingTemplateDataPO">
+                                    <publishingTemplate>
+                                        <field name="templateRoot">
+                                            <String>${pd}/MLA_External_Documentation/Templates/PDF_publish/</String>
+                                        </field>
+                                        <field name="descriptorRelativePath">
+                                            <String>PDF_publish.opt</String>
+                                        </field>
+                                        <field name="isCustomTemplate">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                    </publishingTemplate>
+                                </field>
+                                <field name="oxygenFeedbackPO">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.css.param.show-onpage-lbl</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.draft</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.input</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${pd}/MLA_External_Documentation/main.ditamap</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.root.map</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>${rootMapFile}</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>2</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>close.pdf.reader.before.transform</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>no</String>
+                                                    <String>yes</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>RDA Metadata Guidance - PDF</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
                                     <String>${cfd}/out/webhelp-responsive</String>
                                 </field>
                                 <field name="tempDir">
@@ -9231,333 +9578,6 @@ ${caret}</String>
                                 </field>
                                 <field name="name">
                                     <String>TEST DITA PDF - based on HTML5 &amp; CSS - Copy - Copy</String>
-                                </field>
-                                <field name="baseURL">
-                                    <null/>
-                                </field>
-                                <field name="footerURL">
-                                    <null/>
-                                </field>
-                                <field name="fOPMethod">
-                                    <null/>
-                                </field>
-                                <field name="fOProcessorName">
-                                    <null/>
-                                </field>
-                                <field name="headerURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXSLURL">
-                                    <null/>
-                                </field>
-                                <field name="inputXMLURL">
-                                    <null/>
-                                </field>
-                                <field name="defaultScenario">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="isFOPPerforming">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="type">
-                                    <String>DITAMAP</String>
-                                </field>
-                                <field name="saveAs">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="openInBrowser">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="outputResource">
-                                    <null/>
-                                </field>
-                                <field name="openOtherLocationInBrowser">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="locationToOpenInBrowserURL">
-                                    <String></String>
-                                </field>
-                                <field name="openInEditor">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInHTMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInXMLPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInSVGPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="showInResultSetPane">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useXSLTInput">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="xsltParams">
-                                    <list/>
-                                </field>
-                                <field name="cascadingStylesheets">
-                                    <String-array/>
-                                </field>
-                                <field name="xslTransformer">
-                                    <String>DITA-OT</String>
-                                </field>
-                                <field name="extensionURLs">
-                                    <String-array/>
-                                </field>
-                            </ditaScenario>
-                            <ditaScenario>
-                                <field name="useXEP">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="useAntennaHouse">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="baseDir">
-                                    <String>${cfd}</String>
-                                </field>
-                                <field name="outputDir">
-                                    <String>${cfd}/out/topic-pdf-css-html5</String>
-                                </field>
-                                <field name="tempDir">
-                                    <String>${cfd}/temp/topic-pdf-css-html5</String>
-                                </field>
-                                <field name="transtype">
-                                    <String>pdf-css-html5-single-topic</String>
-                                </field>
-                                <field name="filters">
-                                    <ditavalFilters>
-                                        <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="useAppliedConditionSet">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                        <field name="appliedConditionSet">
-                                            <null/>
-                                        </field>
-                                        <field name="ditavalFilePath">
-                                            <null/>
-                                        </field>
-                                        <field name="simpleFiltersList">
-                                            <list>
-                                                <ditavalSimpleFilter>
-                                                    <field name="attrName">
-                                                        <String>audience</String>
-                                                    </field>
-                                                    <field name="attrValue">
-                                                        <String>webonly</String>
-                                                    </field>
-                                                </ditavalSimpleFilter>
-                                            </list>
-                                        </field>
-                                    </ditavalFilters>
-                                </field>
-                                <field name="addOxygenJars">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="skinCssFile">
-                                    <null/>
-                                </field>
-                                <field name="lastCustomSkinCssPath">
-                                    <null/>
-                                </field>
-                                <field name="webhelpResponsiveTemplate">
-                                    <null/>
-                                </field>
-                                <field name="publishingTemplateDataPO">
-                                    <publishingTemplate>
-                                        <field name="templateRoot">
-                                            <String>${pd}/MLA_External_Documentation/Templates/PDF_publish/</String>
-                                        </field>
-                                        <field name="descriptorRelativePath">
-                                            <String>PDF_publish.opt</String>
-                                        </field>
-                                        <field name="isCustomTemplate">
-                                            <Boolean>false</Boolean>
-                                        </field>
-                                    </publishingTemplate>
-                                </field>
-                                <field name="oxygenFeedbackPO">
-                                    <null/>
-                                </field>
-                                <field name="additionalAntArgs">
-                                    <String></String>
-                                </field>
-                                <field name="buildTarget">
-                                    <String></String>
-                                </field>
-                                <field name="buildFilePath">
-                                    <String></String>
-                                </field>
-                                <field name="ditaParams">
-                                    <list>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.css.param.show-onpage-lbl</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>yes</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>yes</String>
-                                                    <String>no</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.draft</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>yes</String>
-                                                    <String>no</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.input</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>${pd}/MLA_External_Documentation/main.ditamap</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>2</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>args.root.map</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>${rootMapFile}</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>2</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>close.pdf.reader.before.transform</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>yes</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>no</String>
-                                                    <String>yes</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                    </list>
-                                </field>
-                                <field name="jvmArgs">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomJavaHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customJavaHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="useCustomANTHome">
-                                    <Boolean>false</Boolean>
-                                </field>
-                                <field name="customANTHomeDir">
-                                    <String></String>
-                                </field>
-                                <field name="workingDir">
-                                    <null/>
-                                </field>
-                                <field name="showConsoleAlways">
-                                    <Boolean>true</Boolean>
-                                </field>
-                                <field name="advancedOptionsMap">
-                                    <null/>
-                                </field>
-                                <field name="name">
-                                    <String>RDA Metadata Guidance - PDF</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>

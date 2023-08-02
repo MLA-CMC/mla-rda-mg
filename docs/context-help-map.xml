@@ -9,15 +9,15 @@
                path="Content/LRM/lrm_and_rda_concepts.html"/>
    <appContext helpID="representative_expressions"
                path="Content/LRM/representative_expressions.html#representative_expressions"/>
-   <appContext helpID="unique_1060369161"
-               path="Content/LRM/representative_expressions.html#unique_1060369161"/>
+   <appContext helpID="unique_1030084722"
+               path="Content/LRM/representative_expressions.html#unique_1030084722"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates.html"/>
    <appContext helpID="aggregates" path="Content/LRM/aggregates_aaps.html"/>
    <appContext helpID="musical_we" path="Content/WE/musical_we.html#musical_we"/>
    <appContext helpID="aap_work_expression"
                path="Content/WE/musical_we.html#aap_work_expression"/>
-   <appContext helpID="unique_346527043"
-               path="Content/WE/musical_we.html#unique_346527043"/>
+   <appContext helpID="unique_763223359"
+               path="Content/WE/musical_we.html#unique_763223359"/>
    <appContext helpID="bib_description"
                path="Content/Description/bib_description.html"/>
    <appContext helpID="element_overview_marc_bibliographic"

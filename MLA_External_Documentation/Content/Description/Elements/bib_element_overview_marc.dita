@@ -357,13 +357,21 @@
                             <entry>$a</entry>
                         </row>
                         <row>
-                            <entry morerows="1">dimensions</entry>
+                            <entry morerows="3">dimensions</entry>
                             <entry>300</entry>
                             <entry>$c</entry>
                         </row>
                         <row>
                             <entry>340</entry>
                             <entry>$b</entry>
+                        </row>
+                        <row>
+                            <entry>007/05 (audio)</entry>
+                            <entry>($g)</entry>
+                        </row>
+                        <row>
+                            <entry>007/06 (audio tape)</entry>
+                            <entry>($h)</entry>
                         </row>
                     </tbody>
                 </tgroup>
@@ -422,14 +430,22 @@
                     </thead>
                     <tbody>
                         <row>
-                            <entry namest="newCol1" nameend="c1">applied material</entry>
+                            <entry namest="newCol1" nameend="c1" morerows="1">applied material</entry>
                             <entry>340</entry>
                             <entry>$c</entry>
                         </row>
                         <row>
-                            <entry namest="newCol1" nameend="c1">base material</entry>
+                            <entry>007/10* (audio; see note)</entry>
+                            <entry>($k)</entry>
+                        </row>
+                        <row>
+                            <entry namest="newCol1" nameend="c1" morerows="1">base material</entry>
                             <entry>340</entry>
                             <entry>$a</entry>
+                        </row>
+                        <row>
+                            <entry>007/10* (audio; see note)</entry>
+                            <entry>($k)</entry>
                         </row>
                         <row>
                             <entry namest="newCol1" nameend="c1">carrier type</entry>
@@ -514,8 +530,12 @@
                             <entry>($f)</entry>
                         </row>
                         <row>
-                            <entry morerows="1"/>
-                            <entry morerows="1">playing speed</entry>
+                            <entry morerows="2"/>
+                            <entry morerows="2">playing speed</entry>
+                            <entry>007/03</entry>
+                            <entry>($d)</entry>
+                        </row>
+                        <row>
                             <entry>344</entry>
                             <entry>$c</entry>
                         </row>
@@ -603,6 +623,7 @@
                     </tbody>
                 </tgroup>
             </table>
+            <note id="note_z4d_lyk_gyb">For sound recordings, 007 byte 10 (kind of material) defines codes for applied material, base material, and applied and base materials together. Not all audio carriers have a valid combination of materials defined. See <ph conkeyref="b_bp_mla/p_r2t_4hh_r4b"/>, <ph conkeyref="b_bp_mla/ph_grz_xtt_t4b"/>.</note>
         </section>
         <section id="section_u2h_xgj_5rb">
             <title>Series statement (MARC: 490) and tracing (MARC: 8xx)</title>

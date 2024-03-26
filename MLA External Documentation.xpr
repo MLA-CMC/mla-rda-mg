@@ -8,7 +8,7 @@
                     <entry>
                         <String>additional.frameworks.directories</String>
                         <String-array>
-                            <String>C:\Users\kek67197\OneDrive - University of Georgia\Work From Home\CSS\MLA RDA MG\MLA_External_Documentation\!Utilities\custom_frameworks</String>
+                            <String>${pd}\MLA_External_Documentation\!Utilities\custom_frameworks</String>
                         </String-array>
                     </entry>
                     <entry>
@@ -7006,6 +7006,10 @@ ${caret}</String>
                         <Boolean>true</Boolean>
                     </entry>
                     <entry>
+                        <String>key.document.templates.option.pane</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.editor.document.type.custom.locations.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -7024,6 +7028,26 @@ ${caret}</String>
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>MLA_External_Documentation/Content/Description/Elements/bib_element_overview_marc.dita</String>
@@ -7046,27 +7070,7 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/mla_external_keydef.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA PDF - based on HTML5 &amp; CSS - Copy</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/Examples/marc_examples_by_element.dita</String>
+                                    <String>MLA_External_Documentation/main.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -7091,6 +7095,66 @@ ${caret}</String>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/WE/musical_we_aaps.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/Content/Intro/intro_mla_application_profile.dita</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>RDA Metadata Guidance - Web</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>MLA_External_Documentation/mla_external_keydef.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA PDF - based on HTML5 &amp; CSS - Copy</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -7226,71 +7290,11 @@ ${caret}</String>
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>MLA_External_Documentation/main.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>MLA_External_Documentation/Templates/PDF_publish/css/custom-styles.css</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>RDA Metadata Guidance - PDF</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/Intro/intro_mla_application_profile.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>MLA_External_Documentation/Content/WE/musical_we_aaps.dita</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>RDA Metadata Guidance - Web</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -9043,6 +9047,112 @@ ${caret}</String>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
+                                                <String>webhelp.default.collection.type.sequence</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>no</String>
+                                                    <String>yes</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.pdf.link.name.destination.enabled</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.pdf.link.text</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>Download the complete MLA RDA Metadata Guidance document as a single PDF</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.pdf.link.url</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>https://cmc.wp.musiclibraryassoc.org/mla-best-practices/</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
                                                 <String>webhelp.publication.toc.hide.chunked.topics</String>
                                             </field>
                                             <field name="description">
@@ -9135,36 +9245,6 @@ ${caret}</String>
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>webhelp.default.collection.type.sequence</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>yes</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>no</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>no</String>
-                                                    <String>yes</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
                                                 <String>webhelp.show.pdf.link</String>
                                             </field>
                                             <field name="description">
@@ -9172,82 +9252,6 @@ ${caret}</String>
                                             </field>
                                             <field name="value">
                                                 <String>yes</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <String>yes</String>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>4</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <String-array>
-                                                    <String>yes</String>
-                                                    <String>no</String>
-                                                    <null/>
-                                                </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>webhelp.pdf.link.url</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>https://cmc.wp.musiclibraryassoc.org/mla-best-practices/</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>webhelp.pdf.link.text</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>Download the full Metadata Guidance document as a PDF</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>webhelp.pdf.link.name.destination.enabled</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>no</String>
                                             </field>
                                             <field name="defaultValue">
                                                 <String>yes</String>
@@ -9656,6 +9660,12 @@ ${caret}</String>
                                 </field>
                             </ditaScenario>
                         </scenario-array>
+                    </entry>
+                    <entry>
+                        <String>user.custom.templates.directories</String>
+                        <String-array>
+                            <String>D:\Documents\elden ring lore\templates</String>
+                        </String-array>
                     </entry>
                 </serializableOrderedMap>
             </serialized>
